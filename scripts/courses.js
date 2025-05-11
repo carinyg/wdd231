@@ -85,13 +85,18 @@ function createCourseCard(filteredCourses) {
 
     const existingLists = courseSection.querySelectorAll(".course-list");
     existingLists.forEach(list => list.remove());
+    const existingTotals = courseSection.querySelectorAll(".credit-totals");
+    existingTotals.forEach(total => total.remove());
 
     if (filteredCourses.length === 0) return;
+
+    const completedCredits = filteredCourses.reduce((sum, course) => course.completed ? sum + course.credits : sum, 0);
+    const remainingCredits = filteredCourses.reduce((sum, course) => !course.completed ? sum + course.credits : sum, 0);
 
     const courseList = document.createElement("div");
     courseList.setAttribute("class", "course-list");
 
-    filteredCourses.forEach(course => { 
+    filteredCourses.forEach(course => {
         let courseCard = document.createElement("section");
         let courseTitle = document.createElement("h3");
 
@@ -104,10 +109,15 @@ function createCourseCard(filteredCourses) {
         };
 
         courseCard.appendChild(courseTitle);
-        courseList.appendChild(courseCard);    
+        courseList.appendChild(courseCard);
     });
 
+    const creditTotals = document.createElement("p");
+    creditTotals.setAttribute("class", "credit-totals");
+    creditTotals.innerHTML = `Completed: ${completedCredits} credits, Remaining: ${remainingCredits} credits`;
+
     courseSection.appendChild(courseList);
+    courseSection.appendChild(creditTotals);
 };
 
 function setActiveFilter(activeId) {

@@ -129,7 +129,7 @@ section h2 {
 .courseWork li {
     font-size: 1.1rem;
     line-height: 1.5;
-    color: var(--burnt-sienna);
+    color: var(--indigo-dye);
 }
 
 .location figure {
@@ -195,8 +195,8 @@ section h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
-    background-color: var(--burnt-sienna); 
+    align-items: center;
+    background-color: var(--burnt-sienna);
 }
 
 .course-card h3 {
@@ -206,6 +206,15 @@ section h2 {
 
 #completed {
     background-color: var(--vanilla);
+}
+
+.credit-totals {
+    text-align: center;
+    color: var(--indigo-dye);
+    font-size: 1.25rem;
+    margin: 1rem 0;
+    padding: 0.5rem;
+
 }
 
 
