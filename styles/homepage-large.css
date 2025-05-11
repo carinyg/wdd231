@@ -1,0 +1,27 @@
+@media screen and (min-width: 640px) {
+
+    nav {
+        width: 100%;
+        max-width: none;
+    }
+
+    nav ul.navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: transparent;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav a {
+        font-size: 1.4rem;
+        padding: 15px;
+    }
+}
