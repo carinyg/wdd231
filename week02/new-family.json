@@ -1,0 +1,43 @@
+{
+    "family_name": "Gardner",
+    "move_in_date": "1999-02-06",
+    "number_of_members": 7,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "Allen Gardner",
+            "gender": "Male",
+            "birth_date": "1975-06-14"
+        },
+        {
+            "name": "Carin Young Gardner",
+            "gender": "Female",
+            "birth_date": "1972-04-14"
+        },
+        {
+            "name": "Sydney Ruth Gardner",
+            "gender": "Female",
+            "birth_date": "1999-01-15"
+        },
+        {
+            "name": "Jacob Lee Gardner",
+            "gender": "Male",
+            "birth_date": "2001-12-12"
+        },
+        {
+            "name": "Elizabeth Kaye Gardner",
+            "gender": "Female",
+            "birth_date": "2003-06-01"
+        },
+        {
+            "name": "Benjamin Earl Gardner",
+            "gender": "Male",
+            "birth_date": "2006-02-06"
+        },
+        {
+            "name": "Zachary Allen Gardner",
+            "gender": "Male",
+            "birth_date": "2009-02-13"
+        }
+    ]
+}
