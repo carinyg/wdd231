@@ -1,0 +1,57 @@
+:root {
+    --color-primary: #3d3b8e;
+    --color-secondary: #6883ba;
+    --color-tertiary: #f9f9f9;
+    --color-accent: #b0e298;
+    --primary-font: 'Smythe', times new roman, serif;
+    --title-font: 'Ribeye', comic sans ms, cursive;
+}
+
+body {
+    background-color: var(--color-accent);
+}
+
+h1 {
+    font-family: var(--title-font);
+    color: var(--color-primary);
+    text-align: center;
+    text-shadow: var(--color-tertiary) 0px 0px 5px;
+}
+
+#cards {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+
+#cards section {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: var(--color-tertiary);
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards section h2 {
+    font-family: var(--title-font);
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+#cards section p {
+    font-family: var(--primary-font);
+    color: var(--color-primary);
+    font-weight: 500;
+}
+
+#cards section img {
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--color-primary);
+    margin-bottom: 1rem;
+}
