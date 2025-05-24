@@ -8,6 +8,93 @@
     --title-font: 'Germania One', system-ui, sans-serif;
 }
 
+header {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    border-bottom: #04044c solid 5px;
+}
+
+.header-logo {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 0 1rem;
+}
+
+.header-logo img {
+    grid-column: 1/2;
+    width: 100%;
+    height: auto;
+    max-width: 64px;
+    padding: 1rem 0 1rem 1rem;
+}
+
+.logo-text {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.header-logo h1 {
+    font-family: var(--title-font);
+    font-size: 1rem;
+    text-align: left;
+    margin: 0;   
+}
+
+.header-logo p {
+    font-size: 0.75rem;
+    text-align: left;
+    margin: 0;
+}
+
+#myButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: var(--color-primary);
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    padding: .25rem 2vw;
+}
+
+ul.navigation li a {
+    display: block;
+    padding: .75rem 2vw;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+li.active a {
+    background-color: rgba(0,0,0,0.15);
+}
+
+ul.navigation {
+    display: none;
+    list-style-type: none;
+}
+
+#myButton.open::before {
+    content: "✖";
+}
+
+ul.navigation.open {
+    display: block;
+}
+ul.navigation li a:hover {
+    background-color: #04044c;
+    color: var(--color-secondary);
+}
 
 footer {
     background-color: var(--color-secondary);
@@ -15,18 +102,24 @@ footer {
     font-family: var(--primary-font);
     font-size: .75rem;
     padding: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    
+    border-top: #04044c solid 5px;
 }
 
 .socials {
-    grid-column: 2/3;
     display: flex-wrap;
     justify-content: center;
     align-items: center;
+    padding: 2.5rem;
 }
 
 .socials a {
     text-decoration: none;
     padding: 0.5rem;
+}
+
+.socials a img {
+    width: 2rem;
+    height: auto;
+    padding: .5rem 2vw;
 }

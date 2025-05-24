@@ -11,6 +11,8 @@
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="stylesheet" href="styles/chamber-tablet.css">
+    <link rel="stylesheet" href="styles/chamber-large.css">
     <meta property="og:title" content="WDD231 | Carin Y. Gardner | Chamber Directory Page">
     <meta property="og:description"
         content="This is Carin Y. Gardner's directory page for the Chamber of Commerce assignment for WDD 231 at BYUI.">
@@ -21,19 +23,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Germania+One&display=swap"
         rel="stylesheet">
     <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
 </head>
 
 <body>
     <header>
         <section class="header-logo">
             <img src="images/UCC-Logo-icon-only.png" alt="Urithiru Chamber of Commerce Logo" width="200" height="200">
-            <h1>Urithiru Chamber of Commerce</h1>
-            <p>Connecting Roshar</p>
+            <div class="logo-text">
+                <h1>Urithiru Chamber of Commerce</h1>
+                <p><strong>Connecting Roshar</strong></p>
+            </div>
         </section>
         <nav>
+            <button id="myButton">&#9776;</button>
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="directory.html">Directory</a></li>
+                <li class="active"><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="discover.html">Discover</a>
             </ul>
