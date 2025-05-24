@@ -1,0 +1,9 @@
+:root {
+    --color-primary: #04044c;
+    --color-secondary: #fef529;
+    --color-tertiary: #8b635c;
+    --color-accent: #8aa8a1;
+    --color-light: #ced3dc;
+    --primary-font: 'Domine', serif;
+    --title-font: 'Germania One', system-ui, sans-serif;
+}
