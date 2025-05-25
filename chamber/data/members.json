@@ -1,6 +1,36 @@
 {
     "members": [
         {
+            "name": "Master Trader",
+            "address": "The Wandersail, The Sea of Storms",
+            "phone": "(730) 555-0199",
+            "URL": "www.wandersail.tha",
+            "image": "images/icons8-viking-ship-64.png",
+            "membership-level": "gold",
+            "proprietor": "Rysn Ftori",
+            "country": "Thaylenah"
+        },
+        {
+            "name": "Urithiru Medical Clinic",
+            "address": "Urithiru Tower, 8th floor",
+            "phone": "(725) 555-0199",
+            "URL": "www.UrithiruMedicalClinic.ale",
+            "image": "images/icons8-surgeon-64.png",
+            "membership-level": "gold",
+            "proprietor": "Dr. Lirin Stormblessed",
+            "country": "Alethkar"
+        },
+        {
+            "name": "Water Hauler's Guild",
+            "address": "The Breakaway, next to the well",
+            "phone": "(757) 555-0199",
+            "URL": "www.whg.herd",
+            "image": "images/icons8-water-bottle-64.png",
+            "membership-level": "gold",
+            "proprietor": "Chilinko",
+            "country": "Herdaz"
+        },
+        {
             "name": "Yokska's Fashion for Men",
             "address": "The Breakaway, within the 10 rings",
             "phone": "(801) 555-0199",
@@ -21,26 +51,6 @@
             "country": "unknown"
         },
         {
-            "name": "Master Trader",
-            "address": "The Wandersail, The Sea of Storms",
-            "phone": "(730) 555-0199",
-            "URL": "www.wandersail.tha",
-            "image": "images/icons8-viking-ship-64.png",
-            "membership-level": "Gold",
-            "proprietor": "Rysn Ftori",
-            "country": "Thaylenah"
-        },
-        {
-            "name": "All's Alley",
-            "address": "The Breakaway, far from the 10 rings",
-            "phone": "(208) 555-0199",
-            "URL": "www.allsAlley.ale",
-            "image": "images/icons8-bar-64.png",
-            "membership-level": "member",
-            "proprietor": "Sullik",
-            "country": "Alethkar"
-        },
-        {
             "name": "Liganor's Pottery",
             "address": "The Breakaway, within the 10 rings",
             "phone": "(212) 555-0199",
@@ -51,23 +61,13 @@
             "country": "Alethkar"
         },
         {
-            "name": "Water Hauler's Guild",
-            "address": "The Breakaway, next to the well",
-            "phone": "(757) 555-0199",
-            "URL": "www.whg.herd",
-            "image": "images/icons8-water-bottle-64.png",
-            "membership-level": "gold",
-            "proprietor": "Chilinko",
-            "country": "Herdaz"
-        },
-        {
-            "name": "Urithiru Medical Clinic",
-            "address": "Urithiru Tower, 8th floor",
-            "phone": "(725) 555-0199",
-            "URL": "www.UrithiruMedicalClinic.ale",
-            "image": "images/icons8-surgeon-64.png",
-            "membership-level": "gold",
-            "proprietor": "Dr. Lirin Stormblessed",
+            "name": "All's Alley",
+            "address": "The Breakaway, far from the 10 rings",
+            "phone": "(208) 555-0199",
+            "URL": "www.allsAlley.ale",
+            "image": "images/icons8-bar-64.png",
+            "membership-level": "member",
+            "proprietor": "Sullik",
             "country": "Alethkar"
         }
     ]

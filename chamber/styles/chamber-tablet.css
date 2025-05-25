@@ -4,30 +4,31 @@
         max-width: 96px;
         padding: 1rem 0 1rem 1rem;
     }
+
     .header-logo h1 {
-            font-size: 1.5rem;
-        }
-    
-        .header-logo p {
-            font-size: 1rem;
-        }
-    
-        footer {
-            font-size: 1rem;
-            display: grid;
-            grid-template-columns: 1fr 2fr 1fr;
-        }
-    
-        .socials {
-            grid-column: 2/3;
-        }
+        font-size: 1.5rem;
+    }
 
-        .socials a {
-            font-size: 1.5rem;
-        }
+    .header-logo p {
+        font-size: 1rem;
+    }
 
-        .socials a img {
-            width: 3rem;
-            height: auto;
-        }
+    footer {
+        font-size: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    .socials {
+        grid-column: 2/3;
+    }
+
+    .socials a {
+        font-size: 1.5rem;
+    }
+
+    .socials a img {
+        width: 3rem;
+        height: auto;
+    }
 }

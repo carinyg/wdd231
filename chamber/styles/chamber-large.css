@@ -21,7 +21,8 @@
         display: none;
     }
 
-    ul.navigation, ul.navigation.open {
+    ul.navigation,
+    ul.navigation.open {
         display: flex;
         font-size: 2.5rem;
         justify-content: center;
@@ -48,4 +49,3 @@
         height: auto;
     }
 }
-
