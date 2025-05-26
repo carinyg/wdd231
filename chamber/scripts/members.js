@@ -26,9 +26,9 @@ const displayMembers = (members) => {
         icon.setAttribute('loading', 'lazy');
         icon.setAttribute('width', '64');
         icon.setAttribute('height', '64');
-        address.textContent = `Found in ${member.address}`;
-        spanReed.textContent = `Span Reed ID#: ${member.phone}`;
-        proprietor.textContent = `Contact: ${member.proprietor} from ${member.country}`;
+        address.innerHTML = `<strong>Found in:</strong> ${member.address}`;
+        spanReed.innerHTML = `<strong>Span Reed ID#:</strong> ${member.phone}`;
+        proprietor.innerHTML = `<strong>Contact:</strong> ${member.proprietor} from ${member.country}`;
         website.setAttribute('href', '#');
         website.textContent = member.URL;
 
