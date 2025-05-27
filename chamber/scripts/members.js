@@ -13,7 +13,7 @@ getMembershipData();
 const displayMembers = (members) => {
     members.forEach(member => {
         let card = document.createElement('section');
-        let businessName = document.createElement('h3');
+        let businessName = document.createElement('h2');
         let address = document.createElement('p');
         let spanReed = document.createElement('p');
         let proprietor = document.createElement('p');

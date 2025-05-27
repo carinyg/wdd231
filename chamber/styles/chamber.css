@@ -50,14 +50,14 @@ header {
     gap: 0.2rem;
 }
 
-.header-logo h1 {
+.header-logo p.logo-title {
     font-family: var(--title-font);
     font-size: 1rem;
     text-align: left;
     margin: 0;
 }
 
-.header-logo p {
+.header-logo p.logo-motto {
     font-size: 0.75rem;
     text-align: left;
     margin: 0;
@@ -124,7 +124,7 @@ ul.navigation li a:hover {
 }
 
 
-.directory h2 {
+.directory h1 {
     font-family: var(--title-font);
     font-size: 1.5rem;
     text-align: center;
@@ -152,7 +152,7 @@ ul.navigation li a:hover {
     transition: transform 0.3s ease;
 }
 
-#membership-cards section h3 {
+#membership-cards section h2 {
     font-family: var(--title-font);
     font-size: 2rem;
     text-align: center;

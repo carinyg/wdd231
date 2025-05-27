@@ -9,11 +9,11 @@
         padding: 2rem 0 2rem 2rem;
     }
 
-    .header-logo h1 {
+    .header-logo p.logo-title {
         font-size: 3rem;
     }
 
-    .header-logo p {
+    .header-logo p.logo-motto {
         font-size: 2rem;
     }
 
