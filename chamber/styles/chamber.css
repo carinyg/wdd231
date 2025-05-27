@@ -119,6 +119,11 @@ ul.navigation li a:hover {
     color: var(--color-secondary);
 }
 
+.display-buttons {
+    display: none;
+}
+
+
 .directory h2{
     font-family: var(--title-font);
     font-size: 1.5rem;
