@@ -1,5 +1,5 @@
 const weatherIcon = document.querySelector("#weather-icon");
-const captionDesc = document.querySelector("weather-description");
+const captionDesc = document.querySelector("#weather-description");
 const currentTemp = document.querySelector(".current-temp");
 const weatherToday = document.querySelector("#weather-today");
 const weatherTomorrow = document.querySelector("#weather-tomorrow");
@@ -18,7 +18,7 @@ async function apiCurrentFetch() {
         const response = await fetch(myURL);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
+            displayCurrentResults(data);
         } else {
             throw Error(await response.text());
         }
@@ -32,7 +32,8 @@ async function apiForecastFetch() {
         const response = await fetch(forecastURL);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
+            // console.log(data);
+            displayForecastResults(data);
         } else {
             throw Error(await response.text());
         }
@@ -42,8 +43,19 @@ async function apiForecastFetch() {
 }
 
 
-function displayResults(data) {
-    const iconsrc = `https://openweathermap.org/img`
+function displayCurrentResults(data) {
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    let desc = data.weather[0].description;
+    weatherIcon.setAttribute("src", iconsrc);
+    weatherIcon.setAttribute("alt", desc);
+    currentTemp.innerHTML = `${data.main.temp}&#176;F`;
+}
+
+function displayForecastResults(data) {
+
+    weatherToday.innerHTML = ` H: ${Math.round(data.list[0].main.temp_max)}&#176;F, L: ${Math.round(data.list[0].main.temp_min)}&#176;F`;
+    weatherTomorrow.innerHTML = ` H: ${Math.round(data.list[1].main.temp_max)}&#176;F, L: ${Math.round(data.list[1].main.temp_min)}&#176;F`;
+    weatherOverTomorrow.innerHTML = ` H: ${Math.round(data.list[2].main.temp_max)}&#176;F, L: ${Math.round(data.list[2].main.temp_min)}&#176;F`;
 }
 
 apiCurrentFetch();
