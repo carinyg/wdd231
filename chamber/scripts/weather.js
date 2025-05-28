@@ -46,16 +46,27 @@ async function apiForecastFetch() {
 function displayCurrentResults(data) {
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
+    desc = desc.charAt(0).toUpperCase() + desc.slice(1);
     weatherIcon.setAttribute("src", iconsrc);
     weatherIcon.setAttribute("alt", desc);
-    currentTemp.innerHTML = `${data.main.temp}&#176;F`;
+    captionDesc.innerHTML = desc;
+    currentTemp.innerHTML = `${Math.round(data.main.temp)}&#176;F`;
 }
 
 function displayForecastResults(data) {
+    let todayDesc = data.list[0].weather[0].description;
+    todayDesc = todayDesc.charAt(0).toUpperCase() + todayDesc.slice(1);
 
-    weatherToday.innerHTML = ` H: ${Math.round(data.list[0].main.temp_max)}&#176;F, L: ${Math.round(data.list[0].main.temp_min)}&#176;F`;
-    weatherTomorrow.innerHTML = ` H: ${Math.round(data.list[1].main.temp_max)}&#176;F, L: ${Math.round(data.list[1].main.temp_min)}&#176;F`;
-    weatherOverTomorrow.innerHTML = ` H: ${Math.round(data.list[2].main.temp_max)}&#176;F, L: ${Math.round(data.list[2].main.temp_min)}&#176;F`;
+    let tomorrowDesc = data.list[1].weather[0].description;
+    tomorrowDesc = tomorrowDesc.charAt(0).toUpperCase() + tomorrowDesc.slice(1);
+
+    let overTomorrowDesc = data.list[2].weather[0].description;
+    overTomorrowDesc = overTomorrowDesc.charAt(0).toUpperCase() + overTomorrowDesc.slice(1);
+
+
+    weatherToday.innerHTML = ` H: ${Math.round(data.list[0].main.temp_max)}&#176;F, L: ${Math.round(data.list[0].main.temp_min)}&#176;F, ${todayDesc}`;
+    weatherTomorrow.innerHTML = ` H: ${Math.round(data.list[1].main.temp_max)}&#176;F, L: ${Math.round(data.list[1].main.temp_min)}&#176;F, ${tomorrowDesc}`;
+    weatherOverTomorrow.innerHTML = ` H: ${Math.round(data.list[2].main.temp_max)}&#176;F, L: ${Math.round(data.list[2].main.temp_min)}&#176;F, ${overTomorrowDesc}`;
 }
 
 apiCurrentFetch();
