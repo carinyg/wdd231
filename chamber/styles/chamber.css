@@ -229,17 +229,17 @@ ul.navigation li a:hover {
     transition: transform 0.3s ease;
 }
 
-#membership-cards section h2 {
+#membership-cards section h2, #spotlight-cards section h2 {
     font-family: var(--title-font);
     font-size: 2rem;
     text-align: center;
 }
 
-#membership-cards section img {
+#membership-cards section img, #spotlight-cards section img {
     padding: 1.5rem;
 }
 
-#membership-cards section a {
+#membership-cards section a, #spotlight-cards section a {
     color: var(--color-primary);
 }
 
