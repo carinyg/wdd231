@@ -44,7 +44,7 @@
 
     .home-cards {
         grid-template-columns: 2.5fr 1fr 1fr;
-        grid-template-rows: repeat(auto);
+        grid-template-rows: auto auto;
     }
 
     .events {
