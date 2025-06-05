@@ -78,8 +78,6 @@ const courses = [
     }
 ];
 
-
-
 function createCourseCard(filteredCourses) {
     const courseSection = document.querySelector(".certificate");
 
@@ -112,11 +110,15 @@ function createCourseCard(filteredCourses) {
         courseCard.appendChild(courseTitle);
         courseList.appendChild(courseCard);
 
-        displayCourseDetails(course);
-        courseCard.appendChild(cardDialog);
+        let cardDialog = displayCourseDetails(course);
+        document.body.appendChild(cardDialog);
 
-        cardDialog.showModal();
-        closeModal.addEventListener("click", () => {
+        courseCard.addEventListener("click", () => {
+            cardDialog.showModal();
+        });
+
+        const closeButton = cardDialog.querySelector("#closeModal");
+        closeButton.addEventListener("click", () => {
             cardDialog.close();
         })
     });
@@ -168,7 +170,7 @@ function displayCourseDetails(course) {
     let dialDescription = document.createElement("p");
     let dialTech = document.createElement("p");
 
-    cardDialog.setAttribute("id", "course-details");
+    cardDialog.setAttribute("id", `course-details-${course.subject}-${course.number}`);
     dialTitle.innerHTML = `${course.subject} ${course.number}`;
     closeButton.setAttribute("id", "closeModal");
     closeButton.textContent = "✖";
@@ -176,7 +178,7 @@ function displayCourseDetails(course) {
     dialCredit.innerHTML = `<strong>Credits:</strong> ${course.credits}`;
     dialCertificate.innerHTML = `<strong>Certificate:</strong> ${course.certificate}`;
     dialDescription.innerHTML = `${course.description}`;
-    dialTech.innerHTML = `<strong>Technology:</strong> ${course.technology}`;
+    dialTech.innerHTML = `<strong>Technology:</strong> ${course.technology.join(", ")}`;
 
     cardDialog.appendChild(dialTitle);
     cardDialog.appendChild(closeButton);
