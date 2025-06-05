@@ -13,9 +13,9 @@ const myinfo = document.querySelector("#mydialog p");
 myclose.addEventListener("click", () => mydialog.close());
 
 function displayItems(data) {
-    console.log(data)
+    // console.log(data)
     data.forEach(x => {
-        console.log(x)
+        // console.log(x)
         const photo = document.createElement("img")
         photo.src = `${url}${x.path}`
         photo.alt = x.name
@@ -33,4 +33,4 @@ function showStuff(x) {
     myinfo.innerHTML = `Dedicated ${x.dedicated} by ${x.person} as temple number ${x.number}`
     mydialog.showModal()
     
-}
+}      

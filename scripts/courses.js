@@ -99,6 +99,7 @@ function createCourseCard(filteredCourses) {
     filteredCourses.forEach(course => {
         let courseCard = document.createElement("section");
         let courseTitle = document.createElement("h3");
+        
 
         courseCard.setAttribute("class", "course-card");
         courseTitle.innerHTML = `${course.subject} ${course.number}`;
@@ -110,6 +111,14 @@ function createCourseCard(filteredCourses) {
 
         courseCard.appendChild(courseTitle);
         courseList.appendChild(courseCard);
+
+        displayCourseDetails(course);
+        courseCard.appendChild(cardDialog);
+
+        cardDialog.showModal();
+        closeModal.addEventListener("click", () => {
+            cardDialog.close();
+        })
     });
 
     const creditTotals = document.createElement("p");
@@ -148,6 +157,36 @@ document.querySelector("#cse").addEventListener("click", (e) => {
     createCourseCard(courses.filter(course => course.subject === "CSE"));
     setActiveFilter("cse");
 });
+
+function displayCourseDetails(course) {
+    let cardDialog = document.createElement("dialog");
+    let dialTitle = document.createElement("h2");
+    let closeButton = document.createElement("button");
+    let dialName = document.createElement("h3");
+    let dialCredit = document.createElement("p");
+    let dialCertificate = document.createElement("p");
+    let dialDescription = document.createElement("p");
+    let dialTech = document.createElement("p");
+
+    cardDialog.setAttribute("id", "course-details");
+    dialTitle.innerHTML = `${course.subject} ${course.number}`;
+    closeButton.setAttribute("id", "closeModal");
+    closeButton.textContent = "✖";
+    dialName.innerHTML = `${course.title}`;
+    dialCredit.innerHTML = `<strong>Credits:</strong> ${course.credits}`;
+    dialCertificate.innerHTML = `<strong>Certificate:</strong> ${course.certificate}`;
+    dialDescription.innerHTML = `${course.description}`;
+    dialTech.innerHTML = `<strong>Technology:</strong> ${course.technology}`;
+
+    cardDialog.appendChild(dialTitle);
+    cardDialog.appendChild(closeButton);
+    cardDialog.appendChild(dialName);
+    cardDialog.appendChild(dialCredit);
+    cardDialog.appendChild(dialCertificate);
+    cardDialog.appendChild(dialDescription);
+    cardDialog.appendChild(dialTech);
+    return cardDialog
+}
 
 createCourseCard(courses);
 setActiveFilter("all");
