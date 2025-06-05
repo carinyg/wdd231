@@ -197,6 +197,13 @@ section h2 {
     justify-content: center;
     align-items: center;
     background-color: var(--burnt-sienna);
+
+}
+
+.course-card:hover {
+    cursor: pointer;
+    background-color: var(--indigo-dye);
+
 }
 
 .course-card h3 {
@@ -208,6 +215,10 @@ section h2 {
     background-color: var(--vanilla);
 }
 
+#completed:hover {
+    background-color: var(--indigo-dye);
+}
+
 .credit-totals {
     text-align: center;
     color: var(--indigo-dye);
@@ -217,7 +228,33 @@ section h2 {
 
 }
 
+dialog {
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px solid var(--burnt-sienna);
+    background-color: var(--vanilla);
+    color: var(--indigo-dye);
 
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+dialog h2 {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 3px solid var(--burnt-sienna);
+}
+
+#closeModal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--burnt-sienna);
+    color: var(--vanilla);
+}
 
 
 footer {
