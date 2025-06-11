@@ -1,0 +1,84 @@
+:root {
+    --delft-blue: #2a3e73;
+    --dun: #dcccbc;
+    --chamoisee: #947b61;
+    --alloy-orange: #c16220;
+    --russet: #924e22;
+    --primary-font: "Quicksand", Arial, sans-serif;
+    --secondary-font: "Chilanka", cursive;
+}
+
+header {
+    background-color: var(--delft-blue);
+    border-bottom: 10px solid var(--russet);
+    display: grid;
+    grid-template-columns: 1fr 2fr .5fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: var(--dun);
+    font-family: var(--secondary-font);
+    grid-column: 2/3;
+    font-size: 2.5rem;
+    padding: 50px 0px 0px;
+    text-align: center;
+}
+
+header img {
+    grid-column: 1/2;
+}
+
+#menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    color: var(--dun);
+    text-decoration: none;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--delft-blue);
+}
+
+nav li {
+    display: none;
+}
+
+nav a {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--dun);
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--dun);
+    color: var(--delft-blue);
+    border: 3px solid var(--russet);
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+body {
+    background-color: var(--dun);
+}
