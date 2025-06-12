@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
 
     header {
         grid-template-columns: 1fr 2fr 4fr;
@@ -9,19 +9,19 @@
     }
 
     nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        position: static;
         grid-column: 3/4;
         grid-row: 1/2;
-        font-size: 2rem;
+        display: flex;
+        justify-content: flex-end;
+        background-color: transparent;
     }
 
     header h1 {
         grid-column: 2/3;
         grid-row: 1/2;
-        font-size: 3rem;
-        padding: 0px 0px 0px;
+        font-size: 2.8rem;
+        padding: 0;
     }
 
     header img {
@@ -33,21 +33,25 @@
 
     nav ul {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        text-align: center;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        font-size: 2.75rem;
+        margin: 0;
+        padding: 0;
+        width: auto;
     }
 
     #menu {
         display: none;
     }
 
-    nav li {
-        display: inline;
+    nav ul li {
+        display: block;
     }
 
     nav a {
-        display: inline;
+        text-align: right;
+        padding: 5px 10px;
     }
 }

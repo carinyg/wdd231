@@ -8,6 +8,12 @@
     --secondary-font: "Chilanka", cursive;
 }
 
+body {
+    font-family: var(--primary-font);
+    font-size: 1.8rem;
+    background-color: var(--dun);
+}
+
 header {
     background-color: var(--delft-blue);
     border-bottom: 10px solid var(--russet);
@@ -17,6 +23,7 @@ header {
     align-items: center;
     justify-items: center;
     padding: 20px;
+    position: relative;
 }
 
 header h1 {
@@ -26,6 +33,7 @@ header h1 {
     font-size: 2.5rem;
     padding: 50px 0px 0px;
     text-align: center;
+    line-height: 1.4;
 }
 
 header img {
@@ -36,21 +44,30 @@ header img {
     position: absolute;
     top: 20px;
     right: 20px;
-    font-family: var(--primary-font);
-    font-size: 2rem;
     color: var(--dun);
-    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 #menu::before {
     content: "≡";
 }
 
+nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--delft-blue);
+}
+
 nav ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    background-color: var(--delft-blue);
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
@@ -59,14 +76,16 @@ nav li {
 
 nav a {
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: var(--dun);
     padding: 10px;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: var(--russet);
+    background: var(--dun);
+    color: var(--delft-blue);
+    transition: background-color 0.3s ease;
 }
 
 .show li {
@@ -75,8 +94,4 @@ nav a:hover {
 
 #menu.show::before {
     content: "X";
-}
-
-body {
-    background-color: var(--dun);
 }

@@ -1,4 +1,4 @@
 
 import { toggleMenu } from "./toggle-menu.mjs";
 
-toggleMenu();
+document.querySelector('#menu').addEventListener('click', toggleMenu);
