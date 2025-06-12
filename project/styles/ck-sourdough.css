@@ -66,9 +66,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: var(--dun);
-    color: var(--delft-blue);
-    border: 3px solid var(--russet);
+    color: var(--russet);
 }
 
 .show li {
