@@ -52,6 +52,7 @@ header img {
 
 #menu::before {
     content: "≡";
+    font-weight: bold;
 }
 
 nav {
@@ -77,6 +78,7 @@ nav li {
 nav a {
     display: block;
     font-size: 1.8rem;
+    font-weight: bold;
     color: var(--dun);
     padding: 10px;
     text-decoration: none;
@@ -94,4 +96,13 @@ nav a:hover {
 
 #menu.show::before {
     content: "X";
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--delft-blue);
+    color: var(--dun);
+    text-align: center;
+    border-top: 10px solid var(--russet);
+    padding: 10px;
 }
