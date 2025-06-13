@@ -99,6 +99,45 @@ nav a:hover {
     font-weight: bold;
 }
 
+#siteplan div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+    border: 5px solid var(--chamoisee);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#siteplan h2 {
+    color: var(--delft-blue);
+    font-family: var(--secondary-font);
+    text-align: center;
+    border-bottom: 3px solid var(--alloy-orange);
+}
+
+#siteplan p,
+#siteplan ul li {
+    color: var(--delft-blue);
+    font-family: var(--primary-font);
+    margin: 10px;
+}
+
+#siteplan p {
+    padding: 20px;
+}
+
+#siteplan div img {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+
+#siteplan div .chilanka {
+    font-family: var(--secondary-font);
+}
+
 footer {
     background-color: var(--delft-blue);
     color: var(--dun);
