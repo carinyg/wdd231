@@ -114,7 +114,7 @@ nav a:hover {
     color: var(--delft-blue);
     font-family: var(--secondary-font);
     text-align: center;
-    border-bottom: 3px solid var(--alloy-orange);
+    border-bottom: 5px solid var(--alloy-orange);
 }
 
 #siteplan p,
@@ -137,6 +137,7 @@ nav a:hover {
 #siteplan div .chilanka {
     font-family: var(--secondary-font);
 }
+
 
 footer {
     background-color: var(--delft-blue);
