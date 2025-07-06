@@ -53,3 +53,44 @@ header span {
 .hamburger.show::before {
     content: "\00D7";
 }
+
+/* NAVIGATION */
+
+.navigation {
+    display: none;
+    margin: 0 auto;
+    max-width: 750px;
+    background-color: black;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    color: var(--uranian-blue);
+    padding: .8rem 10px;
+    text-decoration: none;
+    border-bottom: solid 2px var(--burnt-sienna);
+    font-weight: 600;
+}
+
+.navigation li.current {
+    background-color: var(--burnt-sienna);
+}
+
+.navigation li.current a {
+    color: black;
+}
+
+.navigation a:hover {
+    background-color: var(--uranian-blue);
+    color: var(--indigo-dye);
+}

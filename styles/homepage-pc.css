@@ -21,7 +21,7 @@
     
         .navigation {
             display: block;
-            border-bottom: solid 1px #ddd;
+            max-width: 1450px;
         }
     
         .navigation ul {
