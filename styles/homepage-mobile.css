@@ -1,0 +1,55 @@
+:root {
+    --indigo-dye: #0c4767;
+    --burnt-sienna: #d7816a;
+    --air-superiority-blue: #7ea0b7;
+    --uranian-blue: #a9cef4;
+    --vanilla: #f2f3ae;
+}
+
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: center;
+    background-color: var(--indigo-dye);
+    border-bottom: solid 3px var(--burnt-sienna);
+    column-gap: 8px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: var(--vanilla);
+    font-weight: bold;
+}
+
+/* HAMBURGER */
+
+.hamburger {
+    background: none;
+    border: none;
+    color: var(--vanilla);
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
