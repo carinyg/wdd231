@@ -18,6 +18,7 @@
         href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap"
         rel="stylesheet">
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
@@ -33,7 +34,47 @@
             <li><a href="https://carinyg.github.io/wdd231/final/">Final</a></li>
         </ul>
     </nav>
-    <main></main>
-    <footer></footer>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>About Me</h2>
+            <p>My name is Carin Gardner. My first name is pronounced Cahr-in, like a "car in" the garage.
+            I was born in Virginia, but I moved to Henderson, Nevada with my husband in 1999.
+            We raised our 5 children here. I have also lived in Hawaii and Utah. I served a
+            mission for the Church of Jesus Christ of Latter-Day Saints in Copenhagen, Denmark.
+            I am currently seeking an online degree through BYUI. I love puzzles of all sorts and can
+            often be found listening to a Brandon Sanderson novel. Cheeseburgers bring me joy.</p>
+        </section>
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/carin-gardner-headshot.jpg" alt="Headshot of Carin Gardner" width="200" height="267" loading="lazy">
+        </section>
+        <section>
+            <h2>Web Certificate Courses</h2>
+            <nav>
+                <ul class="courseFilter">
+                    <li><a href="#" id="all">All Courses</a></li>
+                    <li><a href="#" id="wdd">WDD Courses</a></li>
+                    <li><a href="#" id="cse">CSE Courses</a></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/carinyg" target="_blank"><img src="images/github.svg" alt="github" width="16"
+                    height="16"></a>
+            <a href="https://www.instagram.com/kydansk/" target="_blank"><img src="images/instagram.svg" alt="instagram"
+                    width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/carin-gardner-847b9b2b9/" target="_blank"><img src="images/linkedin.svg"
+                    alt="linkedin" width="16" height="16"></a>
+            <a href="https://x.com/CarinGardner5" target="_blank"><img src="images/twitter-x.svg" alt="twitter-x" width="16"
+                    height="16"></a>
+        </div>
+        <p>©<span id="currentyear"></span> 🍔 Carin Y. Gardner 🍔 Nevada
+        </p>
+        <p>Last Modified: <span id="lastModified"></span>
+        </p>
+    </footer>
 </body>
 </html>
