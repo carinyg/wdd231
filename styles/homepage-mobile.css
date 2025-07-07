@@ -94,3 +94,25 @@ header span {
     background-color: var(--uranian-blue);
     color: var(--indigo-dye);
 }
+
+/* MAIN */
+
+/* FOOTER */
+
+footer {
+    background-color: var(--indigo-dye);
+    color: var(--vanilla);
+    text-align: center;
+}
+
+footer img {
+    width: 44px;
+    height: 44px;
+    padding: 20px 10px;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
