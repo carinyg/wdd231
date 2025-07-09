@@ -116,9 +116,4 @@
     .socials {
         grid-column: 2/3;
     }
-
-    .socials a img {
-        width: 4rem;
-        height: auto;
-    }
 }

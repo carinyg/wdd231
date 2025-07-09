@@ -270,7 +270,9 @@ footer {
 }
 
 .socials a img {
-    width: 2rem;
-    height: auto;
-    padding: .5rem 2vw;
+    width: 44px;
+    height: 44px;
+    padding: 5px;
+    border: 2px solid var(--color-primary);
+    border-radius: 22px;
 }
