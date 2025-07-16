@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modules Example: Course and Sections | WDD231 - BYUI | Carin Y. Gardner</title>
+    <meta name="description"
+        content="A simple example of using modules in JavaScript to manage course sections and enrollments. Scripts changed from source files to modules. This is an activity for week03 of WDD231.">
+    <meta name="author" content="Carin Y. Gardner">
+    <link rel="stylesheet" href="styles/modules.css">
+    <script type="module" src="scripts/modules.mjs"></script>
+</head>
+
+<body>
+    <main>
+        <h1 id="courseName"></h1>
+        <h2 id="courseCode"></h2>
+
+        <div id="enrollment">
+            <p>Choose a section:</p>
+            <select id="sectionNumber">
+                <option value="0" disabled selected>--</option>
+            </select>
+            <button id="enrollStudent">Enroll a Student</button>
+            <button id="dropStudent">Drop a Student</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Section</th>
+                    <th>Enrolled</th>
+                    <th>Instructor</th>
+                </tr>
+            </thead>
+            <tbody id="sections"></tbody>
+        </table>
+    </main>
+</body>
+
+</html>
