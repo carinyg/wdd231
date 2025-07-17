@@ -24,8 +24,8 @@
         rel="stylesheet">
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/members.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
 </head>
 
 <body>
@@ -54,13 +54,45 @@
             <img src="images/urithiru.jpg" alt="Artistic renduring of Urithiru by Yevgan Gozhenko" loading="lazy"
                 width="600" height="350">
             <figcaption>Urithiru Highstorm by Yevgen Gozhenk</figcaption>
-            <a class="join-link" href="join.html">Click here to join!</a>
+            <a class="join-link" href="join.html">Join Us</a>
         </figure>
         <h1>Home</h1>
         <p>Welcome home! You've arrived at the Urithiru Chamber of Commerce page. We are connecting all the businesses
             of Urithiru. New to Urithiru? Check out our listings. Urithiru has so much to offer! New listings are added
             daily! Grow your business and stay connected. Like what you see and want to be a part of our growing
-            community? Click the join link at the top of the page, or click the join button above!</p>
+            community? Click the join link at the top of the page, or click the "Join Us" link above!</p>
+        <section class="home-cards">
+            <div class="events">
+                <h2>Events</h2>
+                <ul>
+                    <li>Dual Pit: Next dual, tomorrow at high noon. Watch two High Prince heirs battle for a shard
+                        blade!
+                    </li>
+                    <li>Next Highstorm projected 2 days from now! Infusion chains filling up fast. Don't forget to bring
+                        your dun spheres for exchange!</li>
+                    <li>Urithiru Chamber banquet on Friday an hour before 1st Moon</li>
+                    <li>Everstorm predicted 5 days from now</li>
+                    <li>Dalinar vs. Odium! Contest of Champions in 10 days!</li>
+                </ul>
+            </div>
+            <div class="current-weather">
+                <h2>Current Weather</h2>
+                <figure>
+                    <img id="weather-icon" src="#" alt="#">
+                    <figcaption id="weather-description"></figcaption>
+                </figure>
+                <p class="current-temp"></p>
+            </div>
+            <div class="forecast">
+                <h2>Forecast</h2>
+                <p><strong>Today:</strong><span id="weather-today"></span></p>
+                <p><strong>Tomorrow:</strong><span id="weather-tomorrow"></span></p>
+                <p><strong>Next Day:</strong><span id="weather-overtomorrow"></span></p>
+            </div>
+            <div id="spotlight-cards">
+                <h3>Featured Members</h3>
+            </div>
+        </section>
     </main>
     <footer>
         <section class="footer-contact">
@@ -88,6 +120,9 @@
             <a href="https://www.youtube.com">
                 <img src="images/youtube.svg" alt="YouTube Icon" loading="lazy" width="16" height="16">
             </a>
+        </section>
+        <section class="resource-link">
+            <a href="resources.html">Resources</a>
         </section>
         <section class="copyright">
             <p>WDD231 Class Project</p>

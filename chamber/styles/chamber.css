@@ -110,7 +110,7 @@ ul.navigation li a {
     text-decoration: none;
 }
 
-li.active a {
+li.active a, .resource-link a.active {
     background-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -123,6 +123,10 @@ ul.navigation li a:hover {
     display: none;
 }
 
+.home figure {
+    position: relative;
+}
+
 .home figure img {
     width: 100%;
     height: auto;
@@ -131,6 +135,19 @@ ul.navigation li a:hover {
 .home figure figcaption {
     text-align: right;
     font-size: .75rem;
+}
+
+.home figure a {
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+    background-color: var(--color-light);
+    color: var(--color-primary);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
 }
 
 .home p {
@@ -254,11 +271,12 @@ footer {
     font-family: var(--primary-font);
     font-size: .75rem;
     padding: 2rem;
-
     border-top: #04044c solid 10px;
 }
 
 .socials {
+    grid-column: 2/3;
+    grid-row: 1/2;
     justify-content: center;
     align-items: center;
     padding: 2.5rem;
@@ -275,4 +293,17 @@ footer {
     padding: 5px;
     border: 2px solid var(--color-primary);
     border-radius: 22px;
+}
+
+.resource-link {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 15px;
+    border: 1px solid var(--color-primary);
+    border-radius: 22px;
+}
+
+.resource-link a {
+    color: var(--color-primary);
+    text-decoration: none;
 }

@@ -13,6 +13,11 @@
         font-size: 1rem;
     }
 
+    .home figure a {
+        bottom: 50px;
+        right: 50px;
+    }
+
     .home h1 {
         font-size: 2rem;
     }
@@ -129,15 +134,42 @@
         font-size: 1rem;
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: auto auto;
         justify-content: center;
         align-items: center;
     }
 
+    .footer-contact {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+
     .socials {
         grid-column: 2/3;
+        grid-row: 1/2;
+        display: flex;
     }
 
     .socials a {
         font-size: 1.5rem;
-    }   
+    }
+
+    .resource-link {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        text-align: center;
+        font-size: 1.75rem;
+    }
+
+    .resource-link a {
+        padding: 10px;
+    }
+
+    
+
+    .copyright {
+        grid-column: 3/4;
+        grid-row: 1/3;
+        text-align: right;
+    }
 }

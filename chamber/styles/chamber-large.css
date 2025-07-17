@@ -34,6 +34,11 @@
 
     }
 
+        .home figure a {
+            bottom: 80px;
+            right: 80px;
+        }
+
     .home h1 {
         font-size: 3rem;
     }
