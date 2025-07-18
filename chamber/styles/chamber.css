@@ -110,7 +110,8 @@ ul.navigation li a {
     text-decoration: none;
 }
 
-li.active a, .resource-link a.active {
+li.active a,
+.resource-link a.active {
     background-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -123,7 +124,7 @@ ul.navigation li a:hover {
     display: none;
 }
 
-.home figure {
+.home .hero {
     position: relative;
 }
 
@@ -137,31 +138,26 @@ ul.navigation li a:hover {
     font-size: .75rem;
 }
 
-.home figure a {
+.home .hero a.join-link {
     position: absolute;
     bottom: 30px;
-    right: 15px;
+    right: 55px;
     background-color: var(--color-light);
     color: var(--color-primary);
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-
-}
-
-.home p {
-    font-size: 1.25rem;
-    padding: 0 20px;
-}
-
-.home a.join-link {
     display: block;
     text-align: center;
     color: var(--color-primary);
     font-size: 1.25rem;
 }
 
+.home p {
+    font-size: 1.25rem;
+    padding: 0 20px;
+}
 
 .events,
 .current-weather,
@@ -246,17 +242,20 @@ ul.navigation li a:hover {
     transition: transform 0.3s ease;
 }
 
-#membership-cards section h2, #spotlight-cards section h2 {
+#membership-cards section h2,
+#spotlight-cards section h2 {
     font-family: var(--title-font);
     font-size: 2rem;
     text-align: center;
 }
 
-#membership-cards section img, #spotlight-cards section img {
+#membership-cards section img,
+#spotlight-cards section img {
     padding: 1.5rem;
 }
 
-#membership-cards section a, #spotlight-cards section a {
+#membership-cards section a,
+#spotlight-cards section a {
     color: var(--color-primary);
 }
 
