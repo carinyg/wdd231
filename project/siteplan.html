@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Carin Y. Gardner - Final Project Siteplan</title>
+    <meta name="description" content="Siteplan for final project of wdd131 - BYU-I">
+    <meta name="author" content="Carin Y. Gardner">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/ck-sourdough.css">
+    <link rel="stylesheet" href="styles/ck-sourdough-tablet.css">
+    <link rel="stylesheet" href="styles/ck-sourdough-large.css">
+    <script type="module" src="scripts/ck-sourdough.mjs"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/caring-kitchen-logo-small-round.webp" alt="caring kitchen logo" width="75"
+            height="75" loading="lazy">
+        <h1>Caring Kitchen:<br>3-Day Sourdough</h1>
+        <button id="menu" type="button" aria-label="Toggle navigation menu" aria-expanded="false"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="caringkitchen-sourdough.html" id="sourdough-info">Why?</a></li>
+                <li><a href="ck-sourdough-equipment.html" id="equipment">Equipment</a></li>
+                <li><a href="ck-sourdough-recipe.html" id="recipe">Recipe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="siteplan">
+        <div>
+            <h2>Site Name:<br>Caring Kitchen: Sourdough</h2>
+            <p>The domain will be CaringKitchen-sourdough.com, which is still available. Caring Kitchen is the name of
+                the small home business run by Carin Gardner. This website focuses on her premium product, 3-Day
+                Sourdough</p>
+        </div>
+        <div>
+            <h2>Site Purpose</h2>
+            <p>The purpose of this site is to share all that Carin has learned about making sourdough bread and to make
+                that information available to anyone who is as interested in sourdough as she is.</p>
+        </div>
+        <div>
+            <h2>Scenarios</h2>
+            <ul>
+                <li>What makes long-fermented sourdough bread different from other bread?</li>
+                <li>Which ingredients make a difference in bread?</li>
+                <li>Is there specific equipment that works best?</li>
+                <li>Is the baker willing to share her recipe and process?</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Color Schema</h2>
+            <img src="images/palette.svg" alt="coolor palette" width="600">
+            <p>The color palette was created at Coolers.com. The color scheme was originally used for the creator's
+                WDD131 project. This website pertains to the creator's home business as well, so she wanted it to be
+                stylized similarly. Delft Blue and Dun will be the main font colors and backgrounds. The colors
+                chamoise, alloy orange, and russet will be used as accents and borders throughout the site.</p>
+        </div>
+        <div>
+            <h2>Typography</h2>
+            <p class="chilanka">I chose this font <strong>(Chilanka)</strong> because I wanted a welcoming font with a
+                homespun quality for
+                titles and headings.</p>
+            <p class="quicksand">I chose this font <strong>(Quicksand)</strong> because I wanted an open rounded font
+                that paired well with
+                the other font, but was easier to read in paragraphs and information.</p>
+        </div>
+        <div id="wireframe">
+            <h2>Homepage Wireframe</h2>
+            <img class="mobile-wireframe" src="images/wireframe-mobile.png" alt="mobile wireframe" loading="lazy" width="261" height="1068">
+            <img class="desktop-wireframe" src="images/wireframe-desktop.png" alt="desktop wireframe" loading="lazy" width="694" height="1114">
+        </div>
+
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> 🍔 Carin Y. Gardner 🍔 Nevada</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+        <p>Page Visits: <span id="visitCount">0</span></p>
+    </footer>
+</body>
+
+</html>

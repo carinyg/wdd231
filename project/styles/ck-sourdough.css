@@ -1,0 +1,148 @@
+:root {
+    --delft-blue: #2a3e73;
+    --dun: #dcccbc;
+    --chamoisee: #947b61;
+    --alloy-orange: #c16220;
+    --russet: #924e22;
+    --primary-font: "Quicksand", Arial, sans-serif;
+    --secondary-font: "Chilanka", cursive;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 1.8rem;
+    background-color: var(--dun);
+}
+
+header {
+    background-color: var(--delft-blue);
+    border-bottom: 10px solid var(--russet);
+    display: grid;
+    grid-template-columns: 1fr 2fr .5fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+header h1 {
+    color: var(--dun);
+    font-family: var(--secondary-font);
+    grid-column: 2/3;
+    font-size: 2.5rem;
+    padding: 50px 0px 0px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+header img {
+    grid-column: 1/2;
+}
+
+#menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: var(--dun);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#menu::before {
+    content: "≡";
+    font-weight: bold;
+}
+
+nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--delft-blue);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: none;
+}
+
+nav a {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--dun);
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: var(--dun);
+    color: var(--delft-blue);
+    transition: background-color 0.3s ease;
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
+    font-weight: bold;
+}
+
+#siteplan div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+    border: 5px solid var(--chamoisee);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#siteplan h2 {
+    color: var(--delft-blue);
+    font-family: var(--secondary-font);
+    text-align: center;
+    border-bottom: 5px solid var(--alloy-orange);
+}
+
+#siteplan p,
+#siteplan ul li {
+    color: var(--delft-blue);
+    font-family: var(--primary-font);
+    margin: 10px;
+}
+
+#siteplan p {
+    padding: 20px;
+}
+
+#siteplan div img {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+
+#siteplan div .chilanka {
+    font-family: var(--secondary-font);
+}
+
+
+footer {
+    background-color: var(--delft-blue);
+    color: var(--dun);
+    text-align: center;
+    border-top: 10px solid var(--russet);
+    padding: 10px;
+}
