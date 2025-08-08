@@ -90,6 +90,15 @@ nav a:hover {
     transition: background-color 0.3s ease;
 }
 
+nav a.active {
+    background: var(--russet);
+    color: white;
+}
+
+nav a.active:hover {
+    background: var(--alloy-orange);
+}
+
 .show li {
     display: block;
 }
@@ -138,6 +147,50 @@ nav a:hover {
     font-family: var(--secondary-font);
 }
 
+h1 {
+    text-align: center;
+    color: var(--delft-blue);
+    font-family: var(--secondary-font);
+}
+
+.greeting {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    border: 2px solid var(--chamoisee);
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.greeting img {
+    justify-self: center;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    border-radius: 10px;
+    border: 2px solid var(--chamoisee);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+
+.greeting h2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: var(--delft-blue);
+    font-family: var(--secondary-font);
+    text-align: center;
+    margin: 3px 10px;
+}
+
+.greeting p {
+    color: var(--delft-blue);
+    font-family: var(--primary-font);
+    margin: 5px 10px;
+    text-align: center;
+}
 
 footer {
     background-color: var(--delft-blue);
@@ -145,4 +198,104 @@ footer {
     text-align: center;
     border-top: 10px solid var(--russet);
     padding: 10px;
+}
+
+footer button {
+    background-color: var(--alloy-orange);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--primary-font);
+    margin: 10px 0;
+    ;
+}
+
+footer button:hover {
+    background-color: var(--russet);
+}
+
+footer button:focus,
+.close:focus {
+    outline: 2px solid var(--alloy-orange);
+    outline-offset: 2px;
+    box-shadow: 0 0 5px var(--alloy-orange), 0 0 10px var(--alloy-orange);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border: 3px solid var(--chamoisee);
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--delft-blue);
+}
+
+.close:hover {
+    color: var(--russet);
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm label {
+    margin: 10px 0 5px;
+    font-family: var(--primary-font);
+    color: var(--delft-blue);
+}
+
+#contactForm input,
+#contactForm textarea {
+    padding: 8px;
+    border: 1px solid var(--chamoisee);
+    border-radius: 5px;
+    font-family: var(--primary-font);
+    margin-bottom: 10px;
+}
+
+#contactForm textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#contactForm button {
+    background-color: var(--alloy-orange);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--primary-font);
+}
+
+#contactForm button:hover {
+    background-color: var(--russet);
 }

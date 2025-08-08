@@ -54,4 +54,20 @@
         text-align: right;
         padding: 5px 10px;
     }
+
+    .greeting {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+    }
+
+    .greeting img {
+        justify-self: center;
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+
+    .greeting p {
+        grid-column: 2/3;
+    }
 }
