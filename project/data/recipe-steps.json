@@ -1,187 +1,187 @@
 {
     "steps": [
         {
-            "step": "1. Activate Starter: Add Starter",
+            "title": "1. Activate Starter: Add Starter",
             "image": "images/photo-coming-soon.png",
             "process": "Remove original starter from refrigerator and add 90g sourdough discard to a clean jar."
         },
         {
-            "step": "2. Activate Starter: Add Flour",
+            "title": "2. Activate Starter: Add Flour",
             "image": "images/add-flour-active.webp",
             "process": "Add 45g flour to sourdough discard. Add 55g flour to original starter."
         },
         {
-            "step": "3. Activate Starter: Add water",
+            "title": "3. Activate Starter: Add water",
             "image": "images/add-water-active.webp",
             "process": "Add 45g water to sourdough discard. Add 55g water to original starter."
         },
         {
-            "step": "4. Activate Starter: Mix",
-            "image": "images/stier-active.webp",
+            "title": "4. Activate Starter: Mix",
+            "image": "images/stir-active.webp",
             "process": "Stir until all flour is hydrated in discard and original starter."
         },
         {
-            "step": "5. Activate Starter: Activation, Part 1",
+            "title": "5. Activate Starter: Activation, Part 1",
             "image": "images/top-view-bubbles.webp",
             "process": "Allow to sit at room temperature for 4-6 hours until bubbly and active."
         },
         {
-            "step": "6. Activate Starter: Activation, Part 2",
+            "title": "6. Activate Starter: Activation, Part 2",
             "image": "images/side-view-bubbles.webp",
             "process": "The volume should double and there should be large bubbles throughout the mixture. Return the original starter to the refrigerator and use the now active sourdough discard in the next step."
         },
         {
-            "step": "7. Add Active Sourdough Discard",
+            "title": "7. Add Active Sourdough Discard",
             "image": "images/150g-active-start.webp",
             "process": "Add 150g of the now active sourdough discard to a large mixing bowl. It is difficult to get the exact amount, so I usually add at least 150g and no more than 170g."
         },
         {
-            "step": "8. Add Water",
+            "title": "8. Add Water",
             "image": "images/325g-spring-water.webp",
             "process": "Add 325g of water to a small saucepan."
         },
         {
-            "step": "9. Add Olive Oil",
+            "title": "9. Add Olive Oil",
             "image": "images/20g-ev-olive-oil.webp",
             "process": "Add 20g of extra virgin olive oil to the water in the saucepan."
         },
         {
-            "step": "10. Add Honey",
+            "title": "10. Add Honey",
             "image": "images/25g-honey.webp",
             "process": "Add 25g of honey to the water and olive oil in the saucepan."
         },
         {
-            "step": "11. Heat Mixture",
+            "title": "11. Heat Mixture",
             "image": "images/bring-to-110.webp",
             "process": "Heat liquid mixture on the stove until it reaches 110°F (43°C). Stir to ensure the honey dissolves completely."
         },
         {
-            "step": "12. Add Liquid Mixture",
+            "title": "12. Add Liquid Mixture",
             "image": "images/combine-and-rest.webp",
             "process": "Add liquid mixture to the mixing bowl with the sourdough discard. Stir to combine."
         },
         {
-            "step": "13. 10 Minutes Rest",
+            "title": "13. 10 Minutes Rest",
             "image": "images/stir-after-rest.webp",
             "process": "Let rest for 10 minutes to allow yeast to adjust to the new environment. Stir the mixture again to ensure everything is well combined."
         },
         {
-            "step": "14. Add Flour and Gluten",
+            "title": "14. Add Flour and Gluten",
             "image": "images/500g-flour.webp",
             "process": "Add between 200-300g of flour. Add 1 Tbsp of gluten. Continue to add flour until the scale reads 500g."
         },
         {
-            "step": "15. Add Salt",
+            "title": "15. Add Salt",
             "image": "images/flour-gluten-salt.webp",
             "process": "Add 2 tsps of salt to the flour mixture in the bowl."
         },
         {
-            "step": "16. Mix Dough",
+            "title": "16. Mix Dough",
             "image": "images/stir-to-combine.webp",
             "process": "Combine with a Danish dough whisk or a wooden spoon until the mixture is well combined and no dry flour remains. The dough will be sticky."
         },
         {
-            "step": "17. Scrape the Bowl",
+            "title": "17. Scrape the Bowl",
             "image": "images/scrape-bowl.webp",
             "process": "Scrape the sides of the bowl and shape the dough into a ball in the center of the bowl."
         },
         {
-            "step": "18. Cover and Rest",
+            "title": "18. Cover and Rest",
             "image": "images/cover-and-rest.webp",
             "process": "Cover the bowl and let it rest for 1 hour at room temperature. This allows the dough to relax and begin fermenting."
         },
         {
-            "step": "19. Stretch and Fold, Part 1",
+            "title": "19. Stretch and Fold, Part 1",
             "image": "images/stretch.webp",
             "process": "Pull from the bottom of the dough and stretch until the dough is thin and light shines through it."
         },
         {
-            "step": "20. Stretch and Fold, Part 2",
+            "title": "20. Stretch and Fold, Part 2",
             "image": "images/pull.webp",
             "process": "Fold it back over the dough. Do this 3 more times, turning the bowl a quarter turn. Cover and let rest 30 minutes. Repeat this step 3 more times, for a total of 4 stretch and folds. The dough will become smoother and more elastic with each fold. By the final stretch and fold, the dough will be less sticky and easier to handle."
         },
         {
-            "step": "21. Bulk Fermentation",
+            "title": "21. Bulk Fermentation",
             "image": "images/photo-coming-soon.png",
             "process": "Cover and place the bowl in the refrigerator for 12-24 hours. This slow fermentation develops flavor and texture in the dough."
         },
         {
-            "step": "22. Shape the Dough, Part 1",
+            "title": "22. Shape the Dough, Part 1",
             "image": "images/remove-from-bowl.webp",
             "process": "Let the dough fall gently out of the bowl onto a clean work surface, using a bowl scraper to ease out any parts that stick to the bowl. Be careful not to deflate it too much. It should be smooth and elastic."
         },
         {
-            "step": "23. Shape the Dough, Part 2",
+            "title": "23. Shape the Dough, Part 2",
             "image": "images/gently-pull.webp",
             "process": "Gently pull the dough..."
         },
         {
-            "step": "24. Shape the Dough, Part 3",
+            "title": "24. Shape the Dough, Part 3",
             "image": "images/pull-to-rectangle.webp",
             "process": "...into a rectangle."
         },
         {
-            "step": "25. Shape the Dough, Part 4",
+            "title": "25. Shape the Dough, Part 4",
             "image": "images/fold-to-middle.webp",
             "process": "Fold one side of the rectangle to the middle."
         },
         {
-            "step": "26. Shape the Dough, Part 5",
+            "title": "26. Shape the Dough, Part 5",
             "image": "images/line-up-center.webp",
             "process": "Fold the other side of the rectangle to the middle, lining up the edges without overlapping."
         },
         {
-            "step": "27. Shape the Dough, Part 6",
+            "title": "27. Shape the Dough, Part 6",
             "image": "images/roll-it-up.webp",
             "process": "Roll the dough up from the top to the bottom, creating a tight cylinder. "
         },
         {
-            "step": "28. Shape the Dough, Part 7",
+            "title": "28. Shape the Dough, Part 7",
             "image": "images/pinch-the-seams.webp",
             "process": "Pinch the seam to seal it."
         },
         {
-            "step": "29. Place in Pan",
+            "title": "29. Place in Pan",
             "image": "images/lined-loaf-pan.webp",
             "process": "Place the loaf seam-side down in a lined loaf pan, the lining should extend well beyong the edges of the loaf pan to protect the dough from a cover while baking."
         },
         {
-            "step": "30. Score the Dough",
+            "title": "30. Score the Dough",
             "image": "images/score-the-top.webp",
             "process": "Score the dough with a sharp knife or lame, making 2 shallow cuts diagonally across the top. This allows the dough to expand during baking."
         },
         {
-            "step": "31. Optional: Cover and Rest",
+            "title": "31. Optional: Cover and Rest",
             "image": "images/cover-and-fridge.webp",
             "process": "Cover the loaf pan and return it to the refrigerator for 12-24 hours. This step is optional but can enhance the flavor and texture of the bread."
         },
         {
-            "step": "32. Prepare for Baking, Part 1",
+            "title": "32. Prepare for Baking, Part 1",
             "image": "images/prep-for-cover.webp",
             "process": "Fold the excess lining over the top of the loaf. This will protect the dough from the cover while baking."
         },
         {
-            "step": "33. Prepare for Baking, Part 2",
+            "title": "33. Prepare for Baking, Part 2",
             "image": "images/loaf-pan-cover.webp",
             "process": "Place another loaf pan upside down over the top of the first loaf pan. This creates a cover that traps steam and helps the bread rise. Let the dough come to room temperature and rest for about 4 hours before baking. This allows the dough to rise and develop flavor. 15 minutes before baking, preheat the oven to 400°F (200°C)."
         },
         {
-            "step": "34. Bake, Covered",
+            "title": "34. Bake, Covered",
             "image": "images/bake-covered.webp",
             "process": "Bake the covered loaf for 30 minutes. This helps the bread rise and develop a crust."
         },
         {
-            "step": "35. Bake, Uncovered",
+            "title": "35. Bake, Uncovered",
             "image": "images/bake-uncovered.webp",
             "process": "Remove the cover, and continue to bake for 15-20 minutes, or until it achieves the desired color."
         },
         {
-            "step": "36. Remove from Pan",
+            "title": "36. Remove from Pan",
             "image": "images/remove-from-oven.webp",
             "process": "Remove from oven. Gently loosen the corners with a knife. Remove loaf from pan and place on a cooling rack."
         },
         {
-            "step": "37. Cool Completely",
+            "title": "37. Cool Completely",
             "image": "images/cool-completely.webp",
             "process": "Cool completely, at least 4 hours. After 4 hours I place the loaves in bread bags and slice them the next day. The crust softens over time and is easier to cut after 12 hours."
         }
