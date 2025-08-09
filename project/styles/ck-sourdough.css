@@ -160,6 +160,7 @@ h1 {
     padding: 5px;
     border: 2px solid var(--chamoisee);
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     background-color: white;
     padding: 10px;
     margin: 20px auto;
@@ -190,6 +191,37 @@ h1 {
     font-family: var(--primary-font);
     margin: 5px 10px;
     text-align: center;
+}
+
+#recipe-steps section {
+    background-color: white;
+    border: 2px solid var(--chamoisee);
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#recipe-steps h2 {
+    color: var(--delft-blue);
+    font-family: var(--secondary-font);
+    margin: 10px 0;
+}
+
+#recipe-steps img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid var(--chamoisee);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#recipe-steps p {
+    color: var(--delft-blue);
+    font-family: var(--primary-font);
+    margin: 10px;
 }
 
 footer {

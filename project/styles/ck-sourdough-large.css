@@ -16,6 +16,26 @@
         padding: 5px 20px;
     }
 
+    .greeting {
+        width: 60%;
+        max-width: 1200px;
+    }
+
+    #recipe-steps {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    }
+
+    #recipe-steps section {
+        display: block;
+    }
+
+    
+
+    #recipe-steps p {
+        grid-row: 3/4;
+    }
+
     footer {
         display: grid;
         grid-template-columns: 3fr 1fr;
