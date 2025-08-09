@@ -233,7 +233,7 @@ footer {
 }
 
 footer button {
-    background-color: var(--alloy-orange);
+    background-color: var(--russet);
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
@@ -247,7 +247,7 @@ footer button {
 }
 
 footer button:hover {
-    background-color: var(--russet);
+    background-color: var(--alloy-orange);
 }
 
 footer button:focus,
