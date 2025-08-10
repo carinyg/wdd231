@@ -147,7 +147,7 @@ nav a.active:hover {
     font-family: var(--secondary-font);
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     color: var(--delft-blue);
     font-family: var(--secondary-font);
@@ -191,6 +191,20 @@ h1 {
     font-family: var(--primary-font);
     margin: 5px 10px;
     text-align: center;
+}
+
+.benefits, .discard, .starter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--delft-blue);
+    padding: 15px;
+    border: 2px solid var(--chamoisee);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin: 20px auto;
+    width: 90%;
 }
 
 #recipe-steps section {
