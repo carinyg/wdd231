@@ -1,0 +1,76 @@
+{
+    "equipmentList": [
+        
+        {
+            "name": "4Qt Mixing Bowl",
+            "image": "images/pyrex-4qt-bowl.webp",
+            "imageAlt": "A pyrex 4 quart glass mixing bowl.",
+            "company": "Amazon",
+            "companyURL": "https: //www.amazon.com/dp/B01CL1XCJG?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1"
+        },
+        {
+            "name": "Danish Dough Whisk",
+            "image": "images/danish-whisk.webp",
+            "imageAlt": "A Dainish dough whisk with a stainless steel handle.",
+            "company": "Amazon",
+            "companyURL": "https://www.amazon.com/dp/B0DD72HTPG?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+        },
+        {
+            "name": "Kitchen Scale",
+            "image": "images/taylor-scale.webp",
+            "imageAlt": "A black kitchen scale with a glass top, made by Taylor.",
+            "company": "Amazon",
+            "companyURL": "https://www.amazon.com/Taylor-Glass-Top-Kitchen-Scale/dp/B01B1ZZZ3E/ref=sr_1_2_sspa?crid=39MN33LED6FWJ&dib=eyJ2IjoiMSJ9.Kk_Q64vwwiDLQWguhS6IPJzcB6dfqgNSWAOa_wbMMqiFHMTteZlHjpNZTxx4ZDM1vlzpm2qq_2gUoXZIhSJVdHC_zF1HMugiY3zC6Hab7UXpZkGcEfhR7uPNlls2BXqkYQ2xVqXsW_S-iasIdoPw6WIDDTOVbr7WbP9oMaLclxNzOPHvLrdIv9BHVvgBUxWDaH-XQbyKszwYpUir2ZmrikKTOG3iBcgKMHOkW2QoTKNFFwy9tmopvkR-iUiDAoyfDjCNU9qsPdee6VIkgVAVcuqj_Vz80otePpy7bYq70ok.5NGNGSUt2TMrnmEvDiO4neUnQfs9Hd5lbLLDU1_SMSg&dib_tag=se&keywords=taylor%2Bkitchen%2Bscale&qid=1754796549&s=home-garden&sprefix=taylor%2Bkit%2Cgarden%2C186&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+        },
+        {
+            "name": "",
+            "image": "",
+            "imageAlt": "",
+            "company": "",
+            "companyURL": ""
+        },
+        {
+            "name": "",
+            "image": "",
+            "imageAlt": "",
+            "company": "",
+            "companyURL": ""
+        },
+        {
+            "name": "",
+            "image": "",
+            "imageAlt": "",
+            "company": "",
+            "companyURL": ""
+        },
+        {
+            "name": "",
+            "image": "",
+            "imageAlt": "",
+            "company": "",
+            "companyURL": ""
+        },
+        {
+            "name": "",
+            "image": "",
+            "imageAlt": "",
+            "company": "",
+            "companyURL": ""
+        },
+        {
+            "name": "",
+            "image": "",
+            "imageAlt": "",
+            "company": "",
+            "companyURL": ""
+        },
+        {
+            "name": "",
+            "image": "",
+            "imageAlt": "",
+            "company": "",
+            "companyURL": ""
+        },
+        
+    ]
+}
