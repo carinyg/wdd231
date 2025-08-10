@@ -1,76 +1,116 @@
 {
     "equipmentList": [
-        
         {
             "name": "4Qt Mixing Bowl",
             "image": "images/pyrex-4qt-bowl.webp",
             "imageAlt": "A pyrex 4 quart glass mixing bowl.",
-            "company": "Amazon",
-            "companyURL": "https: //www.amazon.com/dp/B01CL1XCJG?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1"
+            "seller": "Pyrex",
+            "companyURL": "https://www.amazon.com/Pyrex-Prepware-4-Quart-Rimmed-Mixing/dp/B07473FZXQ/ref=ast_sto_dp_puis"
+        },
+        {
+            "name": "Bread Lame",
+            "image": "images/bread-lame.webp",
+            "imageAlt": "A bread lame with a wooden handle and a replaceable blade.",
+            "seller": "Saint Germain Bakery",
+            "companyURL": "https://www.amazon.com/Sourdough-Slashing-Replacement-Authentic-Protector/dp/B01LY7NDQ9/ref=sr_1_6?crid=13EUASUBZ52HZ&dib=eyJ2IjoiMSJ9.RSXGktBEPPVoJzbtH2liFb2O4g43Ifm9nWuK-q1PrjK0OJ2CFxLAmMybO_PPLXYcCEJi4wXuD1LGtbHaEllmqS4_psfCA-6w-v4HJEpr4rZwjpjeWgmQUhp5sELtbUaH7hgWUdpsuCFWc-ceuc3S7yRFQu1gGtW9zSBMIhQDJdEwfK8em3__QMO3nIhRaUM9oPVWQOXmJgS6Tz9yETY2wjtRh-vWlNJsaDL7OkhWC2ft3sZrYfDsnHPd-g7CXN_6BVJZgcNpoQVZ2h4bARnvB5PnqODdhh00bdwGSs7Rw4I.3yOFqLBdye1F_NaYD21WLNZWHokqDDkRVXLcYixFw54&dib_tag=se&keywords=bread+lame&qid=1754804651&sprefix=bread+lame%2Caps%2C194&sr=8-6"
         },
         {
             "name": "Danish Dough Whisk",
             "image": "images/danish-whisk.webp",
             "imageAlt": "A Dainish dough whisk with a stainless steel handle.",
-            "company": "Amazon",
+            "seller": "YIGEDA",
             "companyURL": "https://www.amazon.com/dp/B0DD72HTPG?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+        },
+        {
+            "name": "Digital Candy Thermometer",
+            "image": "images/candy-thermometer.webp",
+            "imageAlt": "A digital candy thermomether with a stainless steel probe and a digital display.",
+            "seller": "CDN",
+            "companyURL": "https://www.amazon.com/CDN-DTC450-Pre-Programmed-Programmable-Thermometer/dp/B00279OPDU/ref=sr_1_8?crid=198UAWY8VNIYH&dib=eyJ2IjoiMSJ9.wz7f1z7U8vhpK3Gl_cTYzi33yYo2PHVzZf8zeJ2qM1VmmccbqnyAOiEo62Prc8ZSzkjmvzc70hiBEqe7DCk_xG-nLRmVQlJpG45UK1A16EmpU_h1Kjs3KdZjafmOzlR8329s7PXPPf3PaETD_iTiz1bs5nsndNzcEJSLFxUbp6WRFKXjob0J7lhYK14V0-XuT7xoY7yd1d1u547n96jQu01JiZ2tT_eR0Viezy5LzW-MIu5fGY0NwSlk0aDHPXXe0vVcgDogr90gJ54fxxATzGWaa-ihDVZngJ1EgDUiGuo.6vx4V4dH6baJpDb_d2LeMsFwwEssuYUZPNNLoo0CEiA&dib_tag=se&keywords=cdn%2Bthermometer&qid=1754803232&sprefix=cdn%2Caps%2C168&sr=8-8&th=1"
+        },
+        {
+            "name": "Enameled Cast Iron Loaf Pan with Lid",
+            "image": "images/red-iron-pan-and-lid.webp",
+            "imageAlt": "Red enameld cast iron loaf pan with a lid. Pictured with a loaf inside and accessories.",
+            "seller": "AILITOR",
+            "companyURL": "https://www.amazon.com/dp/B0DPZ7QM24?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
         },
         {
             "name": "Kitchen Scale",
             "image": "images/taylor-scale.webp",
             "imageAlt": "A black kitchen scale with a glass top, made by Taylor.",
-            "company": "Amazon",
+            "seller": "Taylor",
             "companyURL": "https://www.amazon.com/Taylor-Glass-Top-Kitchen-Scale/dp/B01B1ZZZ3E/ref=sr_1_2_sspa?crid=39MN33LED6FWJ&dib=eyJ2IjoiMSJ9.Kk_Q64vwwiDLQWguhS6IPJzcB6dfqgNSWAOa_wbMMqiFHMTteZlHjpNZTxx4ZDM1vlzpm2qq_2gUoXZIhSJVdHC_zF1HMugiY3zC6Hab7UXpZkGcEfhR7uPNlls2BXqkYQ2xVqXsW_S-iasIdoPw6WIDDTOVbr7WbP9oMaLclxNzOPHvLrdIv9BHVvgBUxWDaH-XQbyKszwYpUir2ZmrikKTOG3iBcgKMHOkW2QoTKNFFwy9tmopvkR-iUiDAoyfDjCNU9qsPdee6VIkgVAVcuqj_Vz80otePpy7bYq70ok.5NGNGSUt2TMrnmEvDiO4neUnQfs9Hd5lbLLDU1_SMSg&dib_tag=se&keywords=taylor%2Bkitchen%2Bscale&qid=1754796549&s=home-garden&sprefix=taylor%2Bkit%2Cgarden%2C186&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
         },
         {
+            "name": "Plastic Bowl Covers",
+            "image": "images/bowl-covers.webp",
+            "imageAlt": "A bag of 100 reusable plastic bowl covers.",
+            "seller": "MAQIHAN",
+            "companyURL": "https://www.amazon.com/MAQIHAN-Bowl-Covers-Bread-Proofing/dp/B0CZ5XSR5Y/ref=sr_1_6_pp?crid=2CMCO7EWTQBWF&dib=eyJ2IjoiMSJ9.djs5FDFnZDPNfA6a5g1EivSMAd8XksRdJFOGZMTi8eQpAyyipug3QggwfQMvWroQppUJsnEmwnOUEqCh3YncSdLzffJwuoeZnlwsg7S8FngUuUmer1nptkZ44wwLs3WBWHI9azXsWz3Jl-jYDA7Mecqhd7DPrh9yvqfpRF6iIh8Q02lvMHBZTAwynOSl_FouVprt0xiYUjlUWHDLbEMQFOzDkQ-OYxawc15oXR0QkaHzFiwuL9mPqL0zdSuBnrIVI5y-k7YCa82HImjBVeRpNt287FD0ZmeAaTO54f_H3w4.nEglKQFv8bE3EFtAUgrWJNkP18Sla6p3xZM67m4CvvI&dib_tag=se&keywords=plastic%2Bbowl%2Bcovers&qid=1754804264&sprefix=plastic%2Bbowl%2Caps%2C175&sr=8-6&th=1"
+        },
+        {
+            "name": "Silicone Bread Pan Liner",
+            "image": "images/bread-liners.webp",
+            "imageAlt": "Two silicone bread pan liners, with handles. Shown flat and in a bread pan.",
+            "seller": "Enskatec",
+            "companyURL": "https://www.amazon.com/dp/B0F6TX8H6L?ref=ppx_yo2ov_dt_b_fed_asin_title"
+        },
+        {
+            "name": "Wide Mouth Mason Jar, 64 oz",
+            "image": "images/2-2qt-jars.webp",
+            "imageAlt": "2 Ball wide mouth mason jars, 64 oz, with lids",
+            "seller": "Ball",
+            "companyURL": "https://www.amazon.com/Ball-ounce-Jar-Wide-Mouth/dp/B01N1SIQP2/ref=sr_1_6?crid=1PFAAH0N52100&dib=eyJ2IjoiMSJ9.85NBhh_3oN_y1wEFh-xnbcxoOb3482vCQJxxLYEygSLioWtPMW0EbtBL1M4f5eKWEpLivW2USJUY1fXrNLD2BdKSRO-ucWsVgp2FeJYHpuDFEuY2PPsH0Hym5VUnsAKmi_HWDQ2mTiQVItjtplXwycMJCMvYt8XVCty9sY7P8LVYcMXOwQSK2PZqMbK3OfRodxOWBiKnNQDUdgp-bL_dl73TGaAwzNuKLLlMqcUGFtPQAZu73AW9geWJa8OzCsZ7fHXi_kehq2XNx-Nmed2_1s_ZrkobmQ9CPaZjx1xlDjY.93GGGe9_pZx83Q_gXqU3EFkJ3Uqrril6O2D6V4gTbhE&dib_tag=se&keywords=ball+2+quart+mason+jars+wide+mouth&qid=1754803738&sprefix=ball+2+%2Caps%2C190&sr=8-6"
+        },
+        {
             "name": "",
             "image": "",
             "imageAlt": "",
-            "company": "",
+            "seller": "",
             "companyURL": ""
         },
         {
             "name": "",
             "image": "",
             "imageAlt": "",
-            "company": "",
+            "seller": "",
             "companyURL": ""
         },
         {
             "name": "",
             "image": "",
             "imageAlt": "",
-            "company": "",
+            "seller": "",
             "companyURL": ""
         },
         {
             "name": "",
             "image": "",
             "imageAlt": "",
-            "company": "",
+            "seller": "",
             "companyURL": ""
         },
         {
             "name": "",
             "image": "",
             "imageAlt": "",
-            "company": "",
+            "seller": "",
             "companyURL": ""
         },
         {
             "name": "",
             "image": "",
             "imageAlt": "",
-            "company": "",
+            "seller": "",
             "companyURL": ""
         },
         {
             "name": "",
             "image": "",
             "imageAlt": "",
-            "company": "",
+            "seller": "",
             "companyURL": ""
-        },
-        
+        }
     ]
 }
