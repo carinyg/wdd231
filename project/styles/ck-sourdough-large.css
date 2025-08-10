@@ -21,6 +21,36 @@
         max-width: 1200px;
     }
 
+    .starter {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 1rem;
+        align-items: center;
+        justify-items: center;
+        padding: 20px;
+    }
+
+    .starter p {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        color: var(--delft-blue);
+    }
+
+    .starter img.stir {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .starter img.finished {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        width: 90%;
+        max-width: 500px;
+    }
+
     #recipe-steps {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));

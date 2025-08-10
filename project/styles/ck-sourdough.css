@@ -38,6 +38,9 @@ header h1 {
 
 header img {
     grid-column: 1/2;
+    width: 100%;
+    height: auto;
+    max-width: 150px;
 }
 
 #menu {
@@ -205,6 +208,15 @@ h1, h2 {
     background-color: white;
     margin: 20px auto;
     width: 90%;
+}
+
+.starter img {
+    width: 75%;
+    height: auto;
+    max-width: 350px;
+    border-radius: 10px;
+    border: 2px solid var(--chamoisee);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 #recipe-steps section {
