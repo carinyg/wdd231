@@ -5,112 +5,136 @@
             "image": "images/pyrex-4qt-bowl.webp",
             "imageAlt": "A pyrex 4 quart glass mixing bowl.",
             "seller": "Pyrex",
-            "companyURL": "https://www.amazon.com/Pyrex-Prepware-4-Quart-Rimmed-Mixing/dp/B07473FZXQ/ref=ast_sto_dp_puis"
+            "companyURL": "https://www.amazon.com/Pyrex-Prepware-4-Quart-Rimmed-Mixing/dp/B07473FZXQ/ref=ast_sto_dp_puis",
+            "why": "I prefer glass bowls for rising dough. They are easy to clean, do not retain odors, and allow me to see the dough rise."
+        },
+        {
+            "name": "8Qt Storage Container",
+            "image": "images/cambro-8qt.webp",
+            "imageAlt": "Clear 8 quart storage container with a lid.",
+            "seller": "Cambro",
+            "companyURL": "https://www.amazon.com/Cambro-Camwear-Polycarbonate-Storage-Container/dp/B07FC52PNZ/ref=sr_1_1?crid=3E494KYVBOAOY&dib=eyJ2IjoiMSJ9.ofEwhbRdiOFpNW8W4QNVaSCkgCligkE9c4Zjen3RUw4W_Cx8-oPFTBXWvXIhDs0iK-yJcil7wm5lUnwGKx0hV5BiFnUqY1fw_jhS7hjrfyXMwhQqdJrQRU0-VyLFyUb3ayzpeZWoDAnytV09W4-X46SwESfPsX4XtppCFn3-sScRtmeQWtWJCYgLiuFAhtVPuq-902RfcEOIsOHQVPogI94ppJVIu_Xy9vHDUuQV34I0LpS8seEpY5HL38CT3FWemhVgypF5wwDg0vlo4rGYSc2JffDNVbAqLtr9ZwCtWtk.KfrocJq5I2Cpqw1EQuyihFBkVbngkNFzwwxcpQu6V9Y&dib_tag=se&keywords=cambro+8+quart+containers+with+lids&qid=1754935742&sprefix=cambro+8+quart+containers+with+lids%2Caps%2C174&sr=8-1",
+            "why": "I am familiar with Cambro containers from my time working at a bakery.They are durable, stackable, and easy to clean. The eight quart size holds a 10 pound bag of flour perfectly."
+        },
+        {
+            "name": "Blender Spatula",
+            "image": "images/blender-spatula.webp",
+            "imageAlt": "A blue, long, straight spatula perfect for scraping the sides of a blender.",
+            "seller": "KitchenAid",
+            "companyURL": "https://www.amazon.com/KitchenAid-KL036OHAQA-Blender-spatula-inches/dp/B07MTG282G/ref=sr_1_1?crid=2N5OZ13QT5SSZ&dib=eyJ2IjoiMSJ9.FOTMoKfBZnqGDO4hhfn4g0N9tD0SxJPhvvab1SLFIufeMgqN6TjK_6tyqycHqySHfThRYvdCxr_4BU8NG_CzZa22y--OITW2VwzbAmxeKf9HlDVqWffWqL45vnBx1SVRz1LzbK8J9IIi_7T9WjWvH4N4IbXJxbQ8HEIg5wHMYtW3jyjCnG8Npd0GZB9wXIezqP-ktTqvWpiyrFZA1lTDJDk6qgLAizCeGSfq1h38Sw6hnwbZs5rB3dJOLQRAV8M44VlP6pg4dI1VzxHRGRzi6L0BZFDwMR0hvU9qbaxAvHs.eS_eQ9qNcXgEC713qmwQl6aA_6L39ZU5o8Xj5aER5l4&dib_tag=se&keywords=kitchenaid%2Bblender%2Bscraper&qid=1754928208&s=home-garden&sprefix=kitchenaid%2Bblender%2Bscraper%2Cgarden%2C154&sr=1-1&th=1",
+            "why": "I love how will this spatula scrapes the sides and lip of my sourdough jars. I used one at my mother-in-law's house and had to get one for myself. Now I have two."
         },
         {
             "name": "Bread Lame",
             "image": "images/bread-lame.webp",
             "imageAlt": "A bread lame with a wooden handle and a replaceable blade.",
             "seller": "Saint Germain Bakery",
-            "companyURL": "https://www.amazon.com/Sourdough-Slashing-Replacement-Authentic-Protector/dp/B01LY7NDQ9/ref=sr_1_6?crid=13EUASUBZ52HZ&dib=eyJ2IjoiMSJ9.RSXGktBEPPVoJzbtH2liFb2O4g43Ifm9nWuK-q1PrjK0OJ2CFxLAmMybO_PPLXYcCEJi4wXuD1LGtbHaEllmqS4_psfCA-6w-v4HJEpr4rZwjpjeWgmQUhp5sELtbUaH7hgWUdpsuCFWc-ceuc3S7yRFQu1gGtW9zSBMIhQDJdEwfK8em3__QMO3nIhRaUM9oPVWQOXmJgS6Tz9yETY2wjtRh-vWlNJsaDL7OkhWC2ft3sZrYfDsnHPd-g7CXN_6BVJZgcNpoQVZ2h4bARnvB5PnqODdhh00bdwGSs7Rw4I.3yOFqLBdye1F_NaYD21WLNZWHokqDDkRVXLcYixFw54&dib_tag=se&keywords=bread+lame&qid=1754804651&sprefix=bread+lame%2Caps%2C194&sr=8-6"
+            "companyURL": "https://www.amazon.com/Sourdough-Slashing-Replacement-Authentic-Protector/dp/B01LY7NDQ9/ref=sr_1_6?crid=13EUASUBZ52HZ&dib=eyJ2IjoiMSJ9.RSXGktBEPPVoJzbtH2liFb2O4g43Ifm9nWuK-q1PrjK0OJ2CFxLAmMybO_PPLXYcCEJi4wXuD1LGtbHaEllmqS4_psfCA-6w-v4HJEpr4rZwjpjeWgmQUhp5sELtbUaH7hgWUdpsuCFWc-ceuc3S7yRFQu1gGtW9zSBMIhQDJdEwfK8em3__QMO3nIhRaUM9oPVWQOXmJgS6Tz9yETY2wjtRh-vWlNJsaDL7OkhWC2ft3sZrYfDsnHPd-g7CXN_6BVJZgcNpoQVZ2h4bARnvB5PnqODdhh00bdwGSs7Rw4I.3yOFqLBdye1F_NaYD21WLNZWHokqDDkRVXLcYixFw54&dib_tag=se&keywords=bread+lame&qid=1754804651&sprefix=bread+lame%2Caps%2C194&sr=8-6",
+            "why": "I love the way the lame (pronounced 'lahm') cuts the dough. It is sharp and precise, and I love the way it slices the dough."
+        },
+        {
+            "name": "Cloth Jar Cover",
+            "image": "images/cloth-jar-cover.webp",
+            "imageAlt": "Canvas jar covers with elastic edges, includes 4 covers and one shown on a jar.",
+            "seller": "ZUAWAE",
+            "companyURL": "https://www.amazon.com/Handmade-Cotton-Cloth-Covers-Sourdough/dp/B0DMM1B59P/ref=sr_1_1_sspa?crid=G2RQY1KMX0QT&dib=eyJ2IjoiMSJ9.xJW5A5rxOp_qbfxKk7bkuvDqeYZjagLOQH4pNVdcPobJGiNvC4KnvVgk2kA_-LZDwSVqTWKOc5E0gmIYIbWl3LLxXprVZsXr_UJ937zqKl3ZOBUok2Enn0FM9K4qpISLf8NC-ET2qPKkqLBGzL66nTFCVxeMpw1AG4lefCLuWkH5UwV4o7xpTihdv8icN8f0LBKsu37Yh0uRoHxK7SpmCM8NW7WorNmhTHaTSbKIrluHjmilCgcE0pGgaVJItr-JaxeRxt6nG_bUK6Xy92GFZvJDJtNccNclNE-2gBZfaWY.1IXpQwKB1XFVOZ1CLCRo_lLgAaJY07Hwr6rfLqeE6Zc&dib_tag=se&keywords=cloth%2Bjar%2Bcovers%2Bfor%2Bmason%2Bjars&qid=1754930333&sprefix=cloth%2Bjar%2B%2Caps%2C181&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
+            "why": "I love how easy these are to use. They fit over the top of my jars and allow the starter to breathe while keeping dust and bugs out. I used to use cheesecloth, but these are so much easier to use and clean. I can just throw them in the washing machine with my towels and they come out clean and ready to use again."
         },
         {
             "name": "Danish Dough Whisk",
             "image": "images/danish-whisk.webp",
             "imageAlt": "A Dainish dough whisk with a stainless steel handle.",
             "seller": "YIGEDA",
-            "companyURL": "https://www.amazon.com/dp/B0DD72HTPG?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+            "companyURL": "https://www.amazon.com/dp/B0DD72HTPG?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+            "why": "I love the way dough comes together with this whisk. It is easy to use and clean. I prefer this to a wooden spoon. I had a similar one with a wood handle, but it broke after a few months of use. This one is stainless steel and is far more durable."
         },
         {
             "name": "Digital Candy Thermometer",
             "image": "images/candy-thermometer.webp",
             "imageAlt": "A digital candy thermomether with a stainless steel probe and a digital display.",
             "seller": "CDN",
-            "companyURL": "https://www.amazon.com/CDN-DTC450-Pre-Programmed-Programmable-Thermometer/dp/B00279OPDU/ref=sr_1_8?crid=198UAWY8VNIYH&dib=eyJ2IjoiMSJ9.wz7f1z7U8vhpK3Gl_cTYzi33yYo2PHVzZf8zeJ2qM1VmmccbqnyAOiEo62Prc8ZSzkjmvzc70hiBEqe7DCk_xG-nLRmVQlJpG45UK1A16EmpU_h1Kjs3KdZjafmOzlR8329s7PXPPf3PaETD_iTiz1bs5nsndNzcEJSLFxUbp6WRFKXjob0J7lhYK14V0-XuT7xoY7yd1d1u547n96jQu01JiZ2tT_eR0Viezy5LzW-MIu5fGY0NwSlk0aDHPXXe0vVcgDogr90gJ54fxxATzGWaa-ihDVZngJ1EgDUiGuo.6vx4V4dH6baJpDb_d2LeMsFwwEssuYUZPNNLoo0CEiA&dib_tag=se&keywords=cdn%2Bthermometer&qid=1754803232&sprefix=cdn%2Caps%2C168&sr=8-8&th=1"
+            "companyURL": "https://www.amazon.com/CDN-DTC450-Pre-Programmed-Programmable-Thermometer/dp/B00279OPDU/ref=sr_1_8?crid=198UAWY8VNIYH&dib=eyJ2IjoiMSJ9.wz7f1z7U8vhpK3Gl_cTYzi33yYo2PHVzZf8zeJ2qM1VmmccbqnyAOiEo62Prc8ZSzkjmvzc70hiBEqe7DCk_xG-nLRmVQlJpG45UK1A16EmpU_h1Kjs3KdZjafmOzlR8329s7PXPPf3PaETD_iTiz1bs5nsndNzcEJSLFxUbp6WRFKXjob0J7lhYK14V0-XuT7xoY7yd1d1u547n96jQu01JiZ2tT_eR0Viezy5LzW-MIu5fGY0NwSlk0aDHPXXe0vVcgDogr90gJ54fxxATzGWaa-ihDVZngJ1EgDUiGuo.6vx4V4dH6baJpDb_d2LeMsFwwEssuYUZPNNLoo0CEiA&dib_tag=se&keywords=cdn%2Bthermometer&qid=1754803232&sprefix=cdn%2Caps%2C168&sr=8-8&th=1",
+            "why": "I love that I can set my target temperature and it will beep when it gets within three degrees of the target."
+        },
+        {
+            "name": "Electric Bread Knife",
+            "image": "images/electric-knife.webp",
+            "imageAlt": "An electric knife on a wooden stand with a carving blade and bread blade.",
+            "seller": "Chef PRO",
+            "companyURL": "https://www.amazon.com/Chef-PRO-Interchangeable-Stainless-Steel-Comfortable/dp/B08WHDMMYJ/ref=sr_1_16?dib=eyJ2IjoiMSJ9.cparQdBGh8AsfPMjUAw-g7Td85xzF04hXk68eCPqLkPUrZcDgQxSi8IVdb3xH2bU9lUkJos2dUikU3zzcMtrg79k0bPk0YnD2qbSiPEOxEqfE7dan9uYQ8YeIU-2g2SEsJI-y5ZaZmRSiuJ_PXXuKwnXEh8liioQfJ62sXfY60E2M3vNSPgIC4qyA9Nj14KH8nn7BZHjM9sV2Ew5z5-I_UIR4eyuOKeMoZrc90oiELkjyRrFSPiUBW2Epul2r1VawV1S7pmP1CbVccin9DU_Ixd7-7kHvJlSbd9_76famiA.fNXTVuVNhOxkGyWww3v90JyayqE7UKGVdha028fBFbQ&dib_tag=se&keywords=Chef+PRO&qid=1754937345&sr=8-16",
+            "why": "I love how perfect the bread slices are with this knife. I also love the wood stand that it comes with. It is easy to store and looks great on my counter."
         },
         {
             "name": "Enameled Cast Iron Loaf Pan with Lid",
             "image": "images/red-iron-pan-and-lid.webp",
             "imageAlt": "Red enameld cast iron loaf pan with a lid. Pictured with a loaf inside and accessories.",
             "seller": "AILITOR",
-            "companyURL": "https://www.amazon.com/dp/B0DPZ7QM24?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1"
+            "companyURL": "https://www.amazon.com/dp/B0DPZ7QM24?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1",
+            "why": "I love how evenly this pan heats. It is perfect for baking sourdough bread. I love the lid that comes with it, it helps to create a perfect crust. This is a new item in my kitchen, the recipe pictures show my previous favorite bread pan. I am planning on slowly replacing my old pans with this one as I can afford it."
         },
         {
             "name": "Kitchen Scale",
             "image": "images/taylor-scale.webp",
             "imageAlt": "A black kitchen scale with a glass top, made by Taylor.",
             "seller": "Taylor",
-            "companyURL": "https://www.amazon.com/Taylor-Glass-Top-Kitchen-Scale/dp/B01B1ZZZ3E/ref=sr_1_2_sspa?crid=39MN33LED6FWJ&dib=eyJ2IjoiMSJ9.Kk_Q64vwwiDLQWguhS6IPJzcB6dfqgNSWAOa_wbMMqiFHMTteZlHjpNZTxx4ZDM1vlzpm2qq_2gUoXZIhSJVdHC_zF1HMugiY3zC6Hab7UXpZkGcEfhR7uPNlls2BXqkYQ2xVqXsW_S-iasIdoPw6WIDDTOVbr7WbP9oMaLclxNzOPHvLrdIv9BHVvgBUxWDaH-XQbyKszwYpUir2ZmrikKTOG3iBcgKMHOkW2QoTKNFFwy9tmopvkR-iUiDAoyfDjCNU9qsPdee6VIkgVAVcuqj_Vz80otePpy7bYq70ok.5NGNGSUt2TMrnmEvDiO4neUnQfs9Hd5lbLLDU1_SMSg&dib_tag=se&keywords=taylor%2Bkitchen%2Bscale&qid=1754796549&s=home-garden&sprefix=taylor%2Bkit%2Cgarden%2C186&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+            "companyURL": "https://www.amazon.com/Taylor-Glass-Top-Kitchen-Scale/dp/B01B1ZZZ3E/ref=sr_1_2_sspa?crid=39MN33LED6FWJ&dib=eyJ2IjoiMSJ9.Kk_Q64vwwiDLQWguhS6IPJzcB6dfqgNSWAOa_wbMMqiFHMTteZlHjpNZTxx4ZDM1vlzpm2qq_2gUoXZIhSJVdHC_zF1HMugiY3zC6Hab7UXpZkGcEfhR7uPNlls2BXqkYQ2xVqXsW_S-iasIdoPw6WIDDTOVbr7WbP9oMaLclxNzOPHvLrdIv9BHVvgBUxWDaH-XQbyKszwYpUir2ZmrikKTOG3iBcgKMHOkW2QoTKNFFwy9tmopvkR-iUiDAoyfDjCNU9qsPdee6VIkgVAVcuqj_Vz80otePpy7bYq70ok.5NGNGSUt2TMrnmEvDiO4neUnQfs9Hd5lbLLDU1_SMSg&dib_tag=se&keywords=taylor%2Bkitchen%2Bscale&qid=1754796549&s=home-garden&sprefix=taylor%2Bkit%2Cgarden%2C186&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
+            "why": "I love being precise with my measurements. This scale is easy to use and has a tare function that allows me to zero out the weight of my bowl or container. I love that it has a glass top that is easy to clean. My scale is an older model, but this is the one I will replace it with when it breaks."
+        },
+        {
+            "name": "Label Maker",
+            "image": "images/label-maker.webp",
+            "imageAlt": "A black label maker with digital display and three rolls of tape.",
+            "seller": "DYMO",
+            "companyURL": "https://www.amazon.com/DYMO-LabelManager-Portable-One-Touch-Organization/dp/B09BK3FVLZ/ref=sr_1_1_sspa?crid=27C4G3NNH5YV&dib=eyJ2IjoiMSJ9.VTgzGB9pgNZUqrzFxev-2CXVx2MGwSbTH_RBsfQyp_l44IMGbQ5WKAehiSFhAeoHAqZqNt1K1_aMaKs6YmAGf8x50NA-iImMehaTQ6MgipPDM0oe6rZ4mr31xwmzMP_--k3OItmeTxzaSy4j-40aJ0-iV95_cALu2tC-d_Id4TNA_xLbBUtzmy5Bsev-l2UbQ29Ty127Ss5Ub-IxShzByP4epofzQGOob14yUdhBuW8.v1hs1NtD-bvjAVrALCd1d3UvA5f4IJRYRbTlPOKKdg0&dib_tag=se&keywords=dymo%2Blabel%2Bmaker&qid=1754935015&sprefix=dymo%2Blabel%2Bmaker%2Caps%2C154&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.9fe8cbfa-bf43-43d1-a707-3f4e65a4b666&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
+            "why": "I love having my pantry look uniform. I got this as a Mother's Day gift a few years ago and I use it to label just about everything."
+        },
+        {
+            "name": "Measuring Spoon",
+            "image": "images/measuring-spoon.webp",
+            "imageAlt": "Adjustable measuring spoon with a zinc alloy handle and a plastic slider.",
+            "seller": "KitchenArt",
+            "companyURL": "https://www.amazon.com/KitchenArt-53212-Pro-Adjust-A-Tablespoon-Satin/dp/B002KJDTQ6/ref=sr_1_1_sspa?crid=1JJPA3A97LVD2&dib=eyJ2IjoiMSJ9.OL-eddyHYwEMHQmzLDNhq6dfXDtGTd_CX7tNnpJHj3jZ4TjINYcDIkOrIuqwlSRzaPelOF8GIaFuaXqca-H6GiKTEeHEqA3aN-P70HJXu8jYxRStUsbgjMRLtcG0MdamEv1RMIyysmmTZmbaoYGkO7k-VFJ_BHlRKJtW5HvdfyqHeoMcJWyg2f1_eNxQ0JfRTM25eQ7hifuRZy16rBI8PnINlBBprZeooMgIo-uh7TGVLdPKjF-SK-zkZSZh7NSO_KAZ_44_lTu5_AEg0J2ZU7dLac9goP22yD5ofYQywnA.u1O06rHv8QZmZxbdkEm51BC4gNdScVfQqOZvzVGOyhw&dib_tag=se&keywords=kitchenart%2Bmeasuring%2Bspoon&qid=1754931098&sprefix=KITCHenart%2Bmea%2Caps%2C174&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
+            "why": "I love how easy this is to use. I have tablespoon and teaspoon versions. It has a sturdy construction and is easy to clean."
         },
         {
             "name": "Plastic Bowl Covers",
             "image": "images/bowl-covers.webp",
             "imageAlt": "A bag of 100 reusable plastic bowl covers.",
             "seller": "MAQIHAN",
-            "companyURL": "https://www.amazon.com/MAQIHAN-Bowl-Covers-Bread-Proofing/dp/B0CZ5XSR5Y/ref=sr_1_6_pp?crid=2CMCO7EWTQBWF&dib=eyJ2IjoiMSJ9.djs5FDFnZDPNfA6a5g1EivSMAd8XksRdJFOGZMTi8eQpAyyipug3QggwfQMvWroQppUJsnEmwnOUEqCh3YncSdLzffJwuoeZnlwsg7S8FngUuUmer1nptkZ44wwLs3WBWHI9azXsWz3Jl-jYDA7Mecqhd7DPrh9yvqfpRF6iIh8Q02lvMHBZTAwynOSl_FouVprt0xiYUjlUWHDLbEMQFOzDkQ-OYxawc15oXR0QkaHzFiwuL9mPqL0zdSuBnrIVI5y-k7YCa82HImjBVeRpNt287FD0ZmeAaTO54f_H3w4.nEglKQFv8bE3EFtAUgrWJNkP18Sla6p3xZM67m4CvvI&dib_tag=se&keywords=plastic%2Bbowl%2Bcovers&qid=1754804264&sprefix=plastic%2Bbowl%2Caps%2C175&sr=8-6&th=1"
+            "companyURL": "https://www.amazon.com/MAQIHAN-Bowl-Covers-Bread-Proofing/dp/B0CZ5XSR5Y/ref=sr_1_6_pp?crid=2CMCO7EWTQBWF&dib=eyJ2IjoiMSJ9.djs5FDFnZDPNfA6a5g1EivSMAd8XksRdJFOGZMTi8eQpAyyipug3QggwfQMvWroQppUJsnEmwnOUEqCh3YncSdLzffJwuoeZnlwsg7S8FngUuUmer1nptkZ44wwLs3WBWHI9azXsWz3Jl-jYDA7Mecqhd7DPrh9yvqfpRF6iIh8Q02lvMHBZTAwynOSl_FouVprt0xiYUjlUWHDLbEMQFOzDkQ-OYxawc15oXR0QkaHzFiwuL9mPqL0zdSuBnrIVI5y-k7YCa82HImjBVeRpNt287FD0ZmeAaTO54f_H3w4.nEglKQFv8bE3EFtAUgrWJNkP18Sla6p3xZM67m4CvvI&dib_tag=se&keywords=plastic%2Bbowl%2Bcovers&qid=1754804264&sprefix=plastic%2Bbowl%2Caps%2C175&sr=8-6&th=1",
+            "why": "I love how well these retain moisture and how I can see the dough rise.I used to use damp towels, but these have a much better seal."
         },
         {
             "name": "Silicone Bread Pan Liner",
             "image": "images/bread-liners.webp",
             "imageAlt": "Two silicone bread pan liners, with handles. Shown flat and in a bread pan.",
             "seller": "Enskatec",
-            "companyURL": "https://www.amazon.com/dp/B0F6TX8H6L?ref=ppx_yo2ov_dt_b_fed_asin_title"
+            "companyURL": "https://www.amazon.com/dp/B0F6TX8H6L?ref=ppx_yo2ov_dt_b_fed_asin_title",
+            "why": "I love how this is reusable. I used to use parchment paper, but this is so much easier to use and clean and does not create waste."
+        },
+        {
+            "name": "Slicing Guide",
+            "image": "images/slicing-guide.webp",
+            "imageAlt": "A white bread slicing guide. Shown with a sliced loaf of bread.",
+            "seller": "Geedel",
+            "companyURL": "https://www.amazon.com/Homemade-Slicing-Flodable-Campact-without/dp/B0B62NKPP7/ref=sr_1_27?crid=2PJUMR5DEZDYC&dib=eyJ2IjoiMSJ9.x7n17PRZChlRwLaeXWcpGLd7GYEG_zxHEB1fDRcYtxb4tsc2wINl6EVa67ZBeQzp6U3K7rkyIqjBb2oHYrCaqgNJ_kTfDlVBEtxOZoFhbGE_XjCBuThH70ep7blVjx1RUbPr8rpWlqtdSD0rpKcpFf-mKZ9U5ZMAQqyfR3f_HDpO4EW2ZJ5O54K_oX8HFS6BueP_2ockRJDgiah2ylGZ12zE2dhO-5aIAr67P_S2Ot7lm3v9_46naf44sOvA-e8xy1EOK4J9TJr8Kyk3bXZU8Yyt1QGgN7NIeIhkctxGIEY.StQXs4Q0MwkblWZIAAQiU-DRKBeg3NrNV08dlvFDQsI&dib_tag=se&keywords=bread%2Bslicing%2Bguide%2Bcollapsible&qid=1754936274&sprefix=bread%2Bslicing%2Bguide%2Bcollapsable%2Caps%2C149&sr=8-27&th=1",
+            "why": "I love have consistent slices of bread. This guide is easy to use and clean. I love that it is collapsible and easy to store."
+        },
+        {
+            "name": "Storage Containers",
+            "image": "images/storage-containers.webp",
+            "imageAlt": "Clear storage containers with black airtight lids. Shown stacked.",
+            "seller": "Rubbermaid",
+            "companyURL": "https://www.amazon.com/Rubbermaid%C2%AE-Brilliance%C2%AE-Storage-Containers-Container/dp/B07X1TMQ34/ref=sr_1_1_pp?crid=3DTIU47MFJMT0&dib=eyJ2IjoiMSJ9.yBLjafrjWBINF6qiuzQLXushe1_mOJ3Yt-MK4oXYP91AXs4Iq-y0Xqn6BPgnZquEJ6LIud-PCiDjn7ruWoDgJZryxyiXc1xbt7_WKd9CqLhKXzHLHupoNBZn922MOs3Nokc6pxOsxlt2fVO-gv92-NxXKHyf6M9q7Kmvx2ndKoZAjyTnRaMwhIVTyAdFERQTlHLp3lJBxS8WYfJcgKf0Yx8ZPLOMMUR3Tzi8fCbRzO0XwzFNNAigWFWv-d9e2oD06-91Olfrf-EOOfrd0azfZJv1alpMFJGle8ZtAxQiYcQ.4VWnkQsBEJHPYCN7mo10L-jlAUCihYwWeCHMatrtUNU&dib_tag=se&keywords=rubbermaid%2Bbrilliance%2Bstorage%2Bcontainers&qid=1754934578&sprefix=rubbermaid%2Caps%2C211&sr=8-1&th=1",
+            "why": "I love how these are airtight and stackable. My entire pantry is organized with these containers. I love that they are clear so I can see what is inside without opening them. My food stays safe and my spices stay fresh."
         },
         {
             "name": "Wide Mouth Mason Jar, 64 oz",
             "image": "images/2-2qt-jars.webp",
             "imageAlt": "2 Ball wide mouth mason jars, 64 oz, with lids",
             "seller": "Ball",
-            "companyURL": "https://www.amazon.com/Ball-ounce-Jar-Wide-Mouth/dp/B01N1SIQP2/ref=sr_1_6?crid=1PFAAH0N52100&dib=eyJ2IjoiMSJ9.85NBhh_3oN_y1wEFh-xnbcxoOb3482vCQJxxLYEygSLioWtPMW0EbtBL1M4f5eKWEpLivW2USJUY1fXrNLD2BdKSRO-ucWsVgp2FeJYHpuDFEuY2PPsH0Hym5VUnsAKmi_HWDQ2mTiQVItjtplXwycMJCMvYt8XVCty9sY7P8LVYcMXOwQSK2PZqMbK3OfRodxOWBiKnNQDUdgp-bL_dl73TGaAwzNuKLLlMqcUGFtPQAZu73AW9geWJa8OzCsZ7fHXi_kehq2XNx-Nmed2_1s_ZrkobmQ9CPaZjx1xlDjY.93GGGe9_pZx83Q_gXqU3EFkJ3Uqrril6O2D6V4gTbhE&dib_tag=se&keywords=ball+2+quart+mason+jars+wide+mouth&qid=1754803738&sprefix=ball+2+%2Caps%2C190&sr=8-6"
-        },
-        {
-            "name": "",
-            "image": "",
-            "imageAlt": "",
-            "seller": "",
-            "companyURL": ""
-        },
-        {
-            "name": "",
-            "image": "",
-            "imageAlt": "",
-            "seller": "",
-            "companyURL": ""
-        },
-        {
-            "name": "",
-            "image": "",
-            "imageAlt": "",
-            "seller": "",
-            "companyURL": ""
-        },
-        {
-            "name": "",
-            "image": "",
-            "imageAlt": "",
-            "seller": "",
-            "companyURL": ""
-        },
-        {
-            "name": "",
-            "image": "",
-            "imageAlt": "",
-            "seller": "",
-            "companyURL": ""
-        },
-        {
-            "name": "",
-            "image": "",
-            "imageAlt": "",
-            "seller": "",
-            "companyURL": ""
-        },
-        {
-            "name": "",
-            "image": "",
-            "imageAlt": "",
-            "seller": "",
-            "companyURL": ""
+            "companyURL": "https://www.amazon.com/Ball-ounce-Jar-Wide-Mouth/dp/B01N1SIQP2/ref=sr_1_6?crid=1PFAAH0N52100&dib=eyJ2IjoiMSJ9.85NBhh_3oN_y1wEFh-xnbcxoOb3482vCQJxxLYEygSLioWtPMW0EbtBL1M4f5eKWEpLivW2USJUY1fXrNLD2BdKSRO-ucWsVgp2FeJYHpuDFEuY2PPsH0Hym5VUnsAKmi_HWDQ2mTiQVItjtplXwycMJCMvYt8XVCty9sY7P8LVYcMXOwQSK2PZqMbK3OfRodxOWBiKnNQDUdgp-bL_dl73TGaAwzNuKLLlMqcUGFtPQAZu73AW9geWJa8OzCsZ7fHXi_kehq2XNx-Nmed2_1s_ZrkobmQ9CPaZjx1xlDjY.93GGGe9_pZx83Q_gXqU3EFkJ3Uqrril6O2D6V4gTbhE&dib_tag=se&keywords=ball+2+quart+mason+jars+wide+mouth&qid=1754803738&sprefix=ball+2+%2Caps%2C190&sr=8-6",
+            "why": "I love how much I can fit in these jars. I usually cook more than one loaf of bread at a time and these jars can hold a lot of starter. I have a few and change them out as I need to."
         }
     ]
 }
