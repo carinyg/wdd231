@@ -219,16 +219,6 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.decimal {
-    list-style-type: decimal;
-    margin-left: 20px;
-}
-
-.lowerAlpha {
-    list-style-type: lower-alpha;
-    margin-left: 80px;
-}
-
 .dry, .wet {
     display: flex;
     flex-direction: column;
