@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caring Kitchen: 3-Day Sourdough - Thank You!</title>
+    <meta name="description"
+        content="A page to say thank you for filling out the information form to Caring Kitchen. A page for the final project of wdd131 - BYU-I.">
+    <meta name="author" content="Carin Y. Gardner">
+    <meta property="og:title" content="Caring Kitchen: Thank You!">
+    <meta property="og:description"
+        content="A page to say thank you for filling out the information form to Caring Kitchen. A page for the final project of wdd131 - BYU-I.">
+    <meta property="og:image" content="https://carinyg.github.io/wdd231/project/images/ck-3ds-why.webp">
+    <meta property="og:url" content="https://carinyg.github.io/wdd231/project">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Caring Kitchen: Thank You!">
+    <meta name="twitter:description"
+        content="A page to say thank you for filling out the information form to Caring Kitchen. A page for the final project of wdd131 - BYU-I.">
+    <meta name="twitter:image" content="https://carinyg.github.io/wdd231/project/images/ck-3ds-why.webp">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/ck-sourdough.css">
+    <link rel="stylesheet" href="styles/ck-sourdough-tablet.css">
+    <link rel="stylesheet" href="styles/ck-sourdough-large.css">
+    <script type="module" src="scripts/ck-sourdough.mjs"></script>
+    <script src="scripts/thank-you.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/ck-logo-sm-round.webp" alt="caring kitchen logo" width="75" height="75" loading="lazy">
+        <div class="company-name">Caring Kitchen:<br>3-Day Sourdough</div>
+        <button id="menu" type="button" aria-label="Toggle navigation menu" aria-expanded="false"></button>
+        <nav>
+            <ul>
+                <li><a href="index.html" id="sourdough-info">Why?</a></li>
+                <li><a href="ck-3ds-equipment.html" id="equipment">Equipment</a></li>
+                <li><a href="ck-3ds-recipe.html" id="recipe">Recipe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Thank You!</h1>
+        <section class="greeting">
+            <img src="images/c-gardner-headshot.jpg" alt="Carin Gardner's headshot" loading="lazy" width="200" height="267">
+            <h2>Hello</h2>
+            <p>Good <span></span>!</p> <!--time of day will be inserted by JavaScript -->
+            <p>Thank you for showing interest in the Caring Kitchen: 3-Day Sourdough site. If you would like to know more about my home business,
+                please visit my other site: <a href="https://carinyg.github.io/wdd131/project/caringkitchen.html">Caring
+                    Kitchen</a>.</p>
+        </section>
+        <section class="thank-you">
+            <h2>Here is the message received:</h2>
+            <div id="submission-details">
+                <!-- sumitted by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+
+<footer>
+    <p>©<span id="currentyear"></span> 🍔 Carin Y. Gardner 🍔 Nevada</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+    <p>Page Visits: <span id="visitCount">0</span></p>
+    <button id="contactButton">Want to know more?</button>
+    <!-- Modal for the contact form -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h3>Contact Caring Kitchen</h3>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Comments or Questions:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Email</button>
+            </form>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

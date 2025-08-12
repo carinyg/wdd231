@@ -47,9 +47,15 @@ export function handleContactForm() {
             submissions.push(formData);
             localStorage.setItem('contactSubmissions', JSON.stringify(submissions));
 
-            const subject = encodeURIComponent(`Inquiry from Caring Kitchen - ${name}`);
-            const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
-            window.location.href = `mailto:cariny.gardner@gmail.com?subject=${subject}&body=${body}`;
+            const params = new URLSearchParams({
+                name: encodeURIComponent(name),
+                email: encodeURIComponent(email),
+                message: encodeURIComponent(message),
+                timestamp: encodeURIComponent(formData.timestamp)
+            });
+
+            window.location.href = `thank-you.html?${params.toString()}`;
+
 
             contactForm.reset();
             modal.style.display = 'none';
