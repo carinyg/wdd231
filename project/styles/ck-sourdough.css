@@ -219,6 +219,11 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
+.lowerAlpha {
+    list-style-type: lower-alpha;
+    margin-left: 20px;
+}
+
 .dry, .wet {
     display: flex;
     flex-direction: column;
