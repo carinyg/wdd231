@@ -1,6 +1,6 @@
 @media (min-width: 1024px) {
 
-    header h1 {
+    header div.company-name {
         font-size: 3rem;
     }
 
