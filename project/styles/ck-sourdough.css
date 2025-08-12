@@ -219,7 +219,43 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-#recipe-steps section {
+.dry, .wet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--delft-blue);
+    padding: 15px;
+    border: 2px solid var(--chamoisee);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.dry h3, .wet h3 {
+    color: var(--delft-blue);
+    font-family: var(--secondary-font);
+    text-align: center;
+    margin: 10px 0;
+}
+
+.dry img, .wet img {
+    width: 75%;
+    height: auto;
+    max-width: 350px;
+    border-radius: 10px;
+    border: 2px solid var(--chamoisee);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dry ul li, .wet ul li {
+    color: var(--delft-blue);
+    font-family: var(--primary-font);
+    margin: 5px 10px;
+}
+
+#recipe-steps section, #equipment-list section {
     background-color: white;
     border: 2px solid var(--chamoisee);
     border-radius: 10px;
@@ -230,13 +266,13 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-#recipe-steps h2 {
+#recipe-steps h2, #equipment-list h3 {
     color: var(--delft-blue);
     font-family: var(--secondary-font);
     margin: 10px 0;
 }
 
-#recipe-steps img {
+#recipe-steps img, #equipment-list img {
     width: 50%;
     height: auto;
     border-radius: 10px;
@@ -244,7 +280,7 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-#recipe-steps p {
+#recipe-steps p, #equipment-list p {
     color: var(--delft-blue);
     font-family: var(--primary-font);
     margin: 10px;

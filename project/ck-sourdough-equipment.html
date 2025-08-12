@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/ck-sourdough-tablet.css">
     <link rel="stylesheet" href="styles/ck-sourdough-large.css">
     <script type="module" src="scripts/ck-sourdough.mjs"></script>
+    <script src="scripts/equipment-list.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
@@ -38,11 +39,58 @@
     <main>
         <h1>Equipment and Ingredients</h1>
         <section class="greeting">
-            <img src="images/carin-gardner-headshot.jpg" alt="Carin Gardner's headshot" loading="lazy" width="200" height="267">
+            <img src="images/carin-gardner-headshot.jpg" alt="Carin Gardner's headshot" loading="lazy" width="200"
+                height="267">
             <h2>Hello</h2>
             <p>Good <span></span>!</p> <!--time of day will be inserted by JavaScript -->
-            <p>Welcome to my information site about my product: 3-Day Sourdough. This page focuses on the equipment and ingredients I use and why I use them.</p>
+            <p>Welcome to my information site about my product: 3-Day Sourdough. This page focuses on the ingredients
+                and equipment I use and why I use them.</p>
         </section>
+        <section id="ingredients">
+            <h2>Ingredients</h2>
+            <section class="wet">
+                <h3>Wet Ingredients</h3>
+                <img src="images/wet-ingredients.webp"
+                    alt="Wet ingrdients: sourdough starter, spring water, extra-virgin olive oil, and honey."
+                    loading="lazy" width="350" height="350">
+                <ul>
+                    <li><strong>150-170g Sourdough Starter, Active: </strong>The recipe calls for 150g or sourdough
+                        starter. Since it is difficult to pour out an exact amount of starter, I use 150g minimum but no
+                        more than 170g.</li>
+                    <li><strong>325g Spring Water: </strong>Spring water seems to make the sourdough happier. When I
+                        originally began my starter, I experimented with tap water and purified water, the sourdough
+                        grew best with the spring water. I purchase this at WinCo Foods.</li>
+                    <li><strong>25g Honey: </strong>I use raw unfiltered honey because I like to use products as close
+                        to natural as possible. The less processed my food is, the happier my tummy is. I purchase this
+                        at Costco Wholesale.</li>
+                    <li><strong>20g Extra Virgin Olive Oil: </strong>I try to use EVOO in my baking and cooking whenever
+                        possible. My blood work improved at my last check-up by eliminating all oils except Olive Oil,
+                        Avocado Oil, and Coconut Oil. I purchase this at Costco Wholesale.</li>
+                </ul>
+            </section>
+            <section class="dry">
+                <h3>Dry Ingredients</h3>
+                <img src="images/dry-ingredients.webp"
+                    alt="Dry ingredients: organic unbleached all-purpose flour, kosher salt, and vital wheat gluten."
+                    loading="lazy" width="350" height="350">
+                <ul>
+                    <li><strong>500g (-1 TBS Gluten) Organic unbleached All-Purpose Flour:</strong> I use organic
+                        unbleached flour to avoid the bleaching chemicals and pesticides that can be found in other
+                        flours. I purchase this at Costco Wholesale.</li>
+                    <li><strong>1 TBS Vital Wheat Gluten:</strong> Bread Flour contains higher quantities of gluten. I
+                        like to add the additional gluten myself, so I control the quantity. I purchase this at WinCo
+                        Foods in their bulk section.</li>
+                    <li><strong>10g Kosher Salt:</strong> I use kosher salt because it has a more consistent taste than
+                        sea salt, is less salty than table salt, and does not contain additives. I purchase this at
+                        WinCo Foods.</li>
+                </ul>
+            </section>
+        </section>
+        <h2>Equipment</h2>
+        <section id="equipment">
+            <div id="equipment-list">
+                <!-- The equipment cards will be inserted here by JavaScript. -->
+            </div>
     </main>
     <footer>
         <p>©<span id="currentyear"></span> 🍔 Carin Y. Gardner 🍔 Nevada</p>
