@@ -22,7 +22,7 @@
     --nav-hover-text: var(--delft-blue);
     --nav-active-bg: var(--russet);
     --nav-active-hover-bg: var(--alloy-orange);
-    --link-color: var(var(--delft-blue));
+    --link-color: var(--delft-blue);
     --link-active: var(--alloy-orange);
     --link-visited: #6b4e8e;
 }
