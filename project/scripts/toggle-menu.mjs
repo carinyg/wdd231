@@ -1,5 +1,5 @@
 export function toggleMenu() {
-    const mainnav = document.querySelector('.navigation');
+    const mainnav = document.querySelector('nav');
     const hambutton = document.querySelector('#menu');
     mainnav.classList.toggle('show');
     hambutton.classList.toggle('show');
