@@ -160,6 +160,15 @@ nav a.active {
 
 nav a.active:hover {
     background: var(--nav-active-hover-bg);
+    color: var(--nav-hover-text);
+}
+
+nav a:visited {
+    color: var(--nav-link);
+}
+
+nav a:visited:hover {
+    color: var(--nav-hover-text);
 }
 
 .show li {
