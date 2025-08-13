@@ -7,21 +7,21 @@ export function toggleDarkMode() {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
         body.className = savedTheme;
-        toggleIcon.className = savedTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+        toggleIcon.textContent = savedTheme === 'dark' ? '☼' : '☾';
     } else {
         body.className = 'light';
-        toggleIcon.className = 'fas fa-moon';
+        toggleIcon.textContent = '☾';
     }
 
     themeToggle.addEventListener('click', () => {
         if (body.className === 'light' || body.className === '') {
             body.className = 'dark';
             localStorage.setItem('theme', 'dark');
-            toggleIcon.className = 'fas fa-sun';
+            toggleIcon.textContent = '☼';
         } else {
             body.className = 'light';
             localStorage.setItem('theme', 'light');
-            toggleIcon.className = 'fas fa-moon';
+            toggleIcon.textContent = '☾';
         }
     });
 }
