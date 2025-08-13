@@ -382,6 +382,10 @@ footer {
     padding: 10px;
 }
 
+footer a, footer a:hover, footer a:visited {
+    color: var(--nav-link);
+}
+
 footer button {
     background-color: var(--button-bg);
     color: white;
