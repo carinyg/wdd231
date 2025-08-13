@@ -167,6 +167,10 @@ nav a:visited {
     color: var(--nav-link);
 }
 
+nav a.active:visited {
+    color: white;
+}
+
 nav a:visited:hover {
     color: var(--nav-hover-text);
 }
