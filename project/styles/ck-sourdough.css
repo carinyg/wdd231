@@ -22,7 +22,9 @@
     --nav-hover-text: var(--delft-blue);
     --nav-active-bg: var(--russet);
     --nav-active-hover-bg: var(--alloy-orange);
-    --link-color: var(var(--delft-blue)) --link-active: var(--alloy-orange);
+    --link-color: var(var(--delft-blue));
+    --link-active: var(--alloy-orange);
+    --link-visited: #6b4e8e;
 }
 
 .dark {
@@ -41,6 +43,7 @@
     --nav-active-hover-bg: #8b4e1e;
     --link-color: #f0d0a0;
     --link-active: #a0521a;
+    --link-visited: #b89ad5;
 }
 
 body {
@@ -224,6 +227,10 @@ a:hover {
 
 a:active {
     color: var(--link-active);
+}
+
+a:visited {
+    color: var(--link-visited);
 }
 
 .greeting {
