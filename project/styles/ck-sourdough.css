@@ -138,7 +138,7 @@ nav li {
     display: none;
 }
 
-nav a {
+nav a, nav a:visited {
     display: block;
     font-size: 1.8rem;
     font-weight: bold;
@@ -147,31 +147,19 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover, nav a:hover:visited {
     background: var(--nav-hover-bg);
     color: var(--nav-hover-text);
     transition: background-color 0.3s ease;
 }
 
-nav a.active {
+nav a.active, nav a.active:visited {
     background: var(--nav-active-bg);
     color: white;
 }
 
-nav a.active:hover {
+nav a.active:hover, nav a.active:hover:visited {
     background: var(--nav-active-hover-bg);
-    color: var(--nav-hover-text);
-}
-
-nav a:visited {
-    color: var(--nav-link);
-}
-
-nav a.active:visited {
-    color: white;
-}
-
-nav a:visited:hover {
     color: var(--nav-hover-text);
 }
 
