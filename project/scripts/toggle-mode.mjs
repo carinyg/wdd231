@@ -21,7 +21,8 @@ export function toggleDarkMode() {
         } else {
             body.className = 'light';
             localStorage.setItem('theme', 'light');
-            toggleIcon.textContent = '☾';
+            toggle
+            Icon.textContent = '☾';
         }
     });
 }
