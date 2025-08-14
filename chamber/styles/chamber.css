@@ -326,7 +326,7 @@ ul.navigation li a:hover {
 
 #destination-cards section img {
     grid-area: photo;
-    width: 250;
+    width: 100%;
     height: auto;
     border: 2px solid var(--color-tertiary);
     border-radius: 15px;
