@@ -1,61 +1,71 @@
 {
     "destinations": [
         {
-            "title": "Azimir Oathgate",
+            "title": "Azimir",
+            "oathgate": "Oathgate",
             "location": "Azimir, capital of the Azish Empire, western Roshar",
             "description": "Connects Urithiru to the bustling, cosmopolitan capital of Azir, known for its bronze-domed buildings and scholarly culture. The Oathgate is a large, circular platform with intricate carvings, activated by a Radiant's Shardblade. It's a key trade and diplomatic hub in the series.",
             "photo_url": "images/Azimir-map.webp"
         },
         {
-            "title": "Thaylen City Oathgate",
-            "location": "Thaylen City, Thaylenah, southern Roshar",
-            "description": "Links to the major port city of Thaylenah, a maritime trade center. The Oathgate is a raised platform with gemstone mechanisms, situated near the city's docks. It becomes critical for military movements in Oathbringer.",
-            "photo_url": "images/Thaylen-City-map.webp"
-        },
-        {
-            "title": "Kholinar Oathgate",
-            "location": "Kholinar, capital of Alethkar, eastern Roshar",
-            "description": "Connects to Alethkar's capital, a grand city with a palace and windblades (rock formations). The Oathgate is located on a platform outside the city but is compromised by the Voidbringers in Oathbringer, making it a focal point of conflict.",
-            "photo_url": "images/Kholinar-map.webp"
-        },
-        {
-            "title": "Vedenar Oathgate",
-            "location": "Vedenar, capital of Jah Keved, central Roshar",
-            "description": "Links to the coastal city of Vedenar, a cultural and political center of Jah Keved. The Oathgate is a large stone platform with spren-activated mechanisms, though it's less prominently featured in the series until later books.",
-            "photo_url": "images/Jah-Keved-map.webp"
-        },
-        {
-            "title": "Rall Elorim Oathgate",
-            "location": "Rall Elorim, Iri, northwestern Roshar",
-            "description": "Connects to the 'City of Shadows' in Iri, a nation of golden-haired people and metallic landscapes. The Oathgate is a mystical platform tied to the region's spren and is less detailed in the books but functional for travel.",
-            "photo_url": "images/Rall-Elorim.webp"
-        },
-        {
-            "title": "Rira Oathgate",
-            "location": "Rira, near Iri, western Roshar",
-            "description": "Links to a location in Rira, a smaller nation west of Iri. The Oathgate is similar in design to others, with a circular platform and spren guardians, but its narrative role is minimal, mentioned mostly in passing.",
-            "photo_url": "images/Rira-map.webp"
-        },
-        {
-            "title": "Stormseat Oathgate",
-            "location": "Stormseat (Narak), Shattered Plains, central Roshar",
-            "description": "Connects to the ruined city of Stormseat, once Natanatan's capital, now called Narak. The Oathgate is central to the Shattered Plains' plot in Words of Radiance, buried under rubble until rediscovered and activated.",
-            "photo_url": "images/Stormseat-tile-map.webp"
-        },
-        {
-            "title": "Shinovar Oathgate",
+            "title": "Shinovar",
+            "oathgate": "Oathgate",
             "location": "Shin Kak Nish, Shinovar, far western Roshar",
             "description": "Links to Shinovar, a lush, Earth-like region with soil and grass, unlike the rest of Roshar. The Oathgate is a stone platform, less described but functional, connecting to this isolated region.",
             "photo_url": "images/Shinovar-map.webp"
         },
         {
-            "title": "Rathalas Oathgate",
+            "title": "Kholinar",
+            "oathgate": "Oathgate",
+            "location": "Kholinar, capital of Alethkar, eastern Roshar",
+            "description": "Connects to Alethkar's capital, a grand city with a palace and windblades (rock formations). The Oathgate is located on a platform outside the city but is compromised by the Voidbringers in Oathbringer, making it a focal point of conflict.",
+            "photo_url": "images/Kholinar-map.webp"
+        },
+        {
+            "title": "Vedenar",
+            "oathgate": "Oathgate",
+            "location": "Vedenar, capital of Jah Keved, central Roshar",
+            "description": "Links to the coastal city of Vedenar, a cultural and political center of Jah Keved. The Oathgate is a large stone platform with spren-activated mechanisms, though it's less prominently featured in the series until later books.",
+            "photo_url": "images/Jah-Keved-map.webp"
+        },
+        {
+            "title": "Rall Elorim",
+            "oathgate": "Oathgate",
+            "location": "Rall Elorim, Iri, northwestern Roshar",
+            "description": "Connects to the 'City of Shadows' in Iri, a nation of golden-haired people and metallic landscapes. The Oathgate is a mystical platform tied to the region's spren and is less detailed in the books but functional for travel.",
+            "photo_url": "images/Rall-Elorim.webp"
+        },
+        {
+            "title": "Rira",
+            "oathgate": "Oathgate",
+            "location": "Rira, near Iri, western Roshar",
+            "description": "Links to a location in Rira, a smaller nation west of Iri. The Oathgate is similar in design to others, with a circular platform and spren guardians, but its narrative role is minimal, mentioned mostly in passing.",
+            "photo_url": "images/Rira-map.webp"
+        },
+        {
+            "title": "Stormseat",
+            "oathgate": "Oathgate",
+            "location": "Stormseat (Narak), Shattered Plains, central Roshar",
+            "description": "Connects to the ruined city of Stormseat, once Natanatan's capital, now called Narak. The Oathgate is central to the Shattered Plains' plot in Words of Radiance, buried under rubble until rediscovered and activated.",
+            "photo_url": "images/Stormseat-tile-map.webp"
+        },
+        {
+            "title": "Thaylen City",
+            "oathgate": "Oathgate",
+            "location": "Thaylen City, Thaylenah, southern Roshar",
+            "description": "Links to the major port city of Thaylenah, a maritime trade center. The Oathgate is a raised platform with gemstone mechanisms, situated near the city's docks. It becomes critical for military movements in Oathbringer.",
+            "photo_url": "images/Thaylen-City-map.webp"
+        },
+        {
+            "title": "Rathalas",
+            "oathgate": "Oathgate",
             "location": "Rathalas, northern Alethkar",
             "description": "Connects to the city of Rathalas, known as the Rift, a rocky region in Alethkar. The Oathgate is buried or damaged until later in the series, with its rediscovery tied to Alethi military campaigns.",
             "photo_url": "images/Rathalas.webp"
         },
         {
-            "title": "Aimia Oathgate",
+            "title": "Aimia",
+            "oathgate": "Oathgate",
             "location": "Akinah, Aimia, southwestern Roshar",
             "description": "Links to the mysterious island of Akinah in Aimia, a region shrouded in secrecy and guarded by ancient spren. The Oathgate is not fully operational until Rhythm of War and is tied to the series' deeper lore.",
             "photo_url": "images/Aimia-map.webp"

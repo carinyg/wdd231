@@ -1,4 +1,4 @@
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 641px) {
 
     .header-logo img {
         max-width: 96px;
@@ -13,11 +13,13 @@
         font-size: 1rem;
     }
 
-    .home h1 {
+    .home h1,
+    .discover h1 {
         font-size: 2rem;
     }
 
-    .home p {
+    .home p,
+    .discover p {
         font-size: 1.5rem;
     }
 
@@ -125,6 +127,52 @@
         max-width: 550px;
     }
 
+    #visit-message {
+        font-size: 2rem;
+    }
+
+    #destination-cards section {
+        grid-template-areas:
+            "photo name"
+            "photo oathgate"
+            "photo location"
+            "photo button";
+    }
+
+    #destination-cards section h2 {
+        align-self: last baseline;
+        display: flex;
+        font-size: 3rem;
+    }
+
+    #destination-cards section h3 {
+        font-size: 2.5rem;
+    }
+
+    #destination-cards section p {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #destination-cards section button {
+        align-self: baseline;
+        width: 175px;
+        font-size: 1.5rem;
+    }
+
+    dialog h2 {
+        font-size: 2.5rem;
+    }
+
+    dialog h3 {
+        font-size: 2rem;
+    }
+
+    dialog h4,
+    dialog p {
+        font-size: 1.5rem;
+    }
+
     footer {
         font-size: 1rem;
         display: grid;
@@ -160,7 +208,7 @@
         padding: 10px;
     }
 
-    
+
 
     .copyright {
         grid-column: 3/4;
