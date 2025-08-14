@@ -149,6 +149,10 @@
         font-size: 2.5rem;
     }
 
+    #destination-cards section img:hover {
+        box-shadow: 0 0 50px var(--color-primary);
+    }
+
     #destination-cards section p {
         text-align: center;
         padding: 10px;
